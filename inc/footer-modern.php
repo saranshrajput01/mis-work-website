@@ -207,17 +207,18 @@ $products = [
             btn.innerHTML = 'Sending...';
             msg.style.display = 'none';
 
-            var formData = new FormData();
-            formData.append('name', form.querySelector('[name="name"]').value);
-            formData.append('email', form.querySelector('[name="email"]').value);
-            formData.append('phone', form.querySelector('[name="phone"]').value);
-            formData.append('city', form.querySelector('[name="city"]').value);
-            formData.append('interested', form.querySelector('[name="interested"]').value);
-            formData.append('message', form.querySelector('[name="message"]').value);
+            var params = new URLSearchParams();
+            params.append('name', form.querySelector('[name="name"]').value);
+            params.append('email', form.querySelector('[name="email"]').value);
+            params.append('phone', form.querySelector('[name="phone"]').value);
+            params.append('city', form.querySelector('[name="city"]').value);
+            params.append('interested', form.querySelector('[name="interested"]').value);
+            params.append('message', form.querySelector('[name="message"]').value);
 
             fetch('https://script.google.com/macros/s/AKfycbwVDbqz17pQUXloA_eZn9y70zzYgsfCqlPQcWjtuc9ZlwQGH0rH5qyy6h5_rSAHDbBH/exec', {
                 method: 'POST',
-                body: formData
+                mode: 'no-cors',
+                body: params
             })
             .then(function(){
                 msg.style.display = 'block';
@@ -227,9 +228,8 @@ $products = [
             })
             .catch(function(){
                 msg.style.display = 'block';
-                msg.style.color = '#10b981';
-                msg.innerHTML = '✅ Message sent! We\'ll get back within 2 hours.';
-                form.reset();
+                msg.style.color = '#ef4444';
+                msg.innerHTML = '❌ Something went wrong. Please call us at +91 9999408444.';
             })
             .finally(function(){
                 btn.disabled = false;
