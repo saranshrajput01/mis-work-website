@@ -177,7 +177,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/services--.jpg" alt="What Makes Us Different">
+                    <img src="assets/images/services.jpg" alt="What Makes Us Different">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

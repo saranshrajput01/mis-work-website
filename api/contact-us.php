@@ -14,8 +14,8 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="noise-overlay"></div>
 
         <div class="product-hero-container">
-            <div class="product-hero-content" style="max-width: 100%; text-align: center;">
-                <div class="product-hero-eyebrow" style="justify-content: center;">
+            <div class="product-hero-content">
+                <div class="product-hero-eyebrow">
                     <span class="dot"></span>
                     <span>Get In Touch</span>
                 </div>
@@ -25,9 +25,50 @@ include __DIR__.'/../inc/header-modern.php';
                     <span class="gradient">Let's work together</span>
                 </h1>
 
-                <p class="product-hero-subtitle" style="max-width: 600px; margin: 0 auto;">
-                    Whether you need a custom ERP, mobile app, or business automation — we're just a message away.
+                <p class="product-hero-subtitle">
+                    Whether you need a custom ERP, mobile app, or business automation — we're just a message away. We respond within 2 hours during business hours.
                 </p>
+
+                <div class="product-hero-cta">
+                    <a href="#contact" class="btn-mis btn-primary-mis" data-cursor-hover>
+                        Send a Message
+                        <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+                    </a>
+                    <a href="tel:+919999408444" class="btn-mis btn-ghost-mis" data-cursor-hover>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Call Now
+                    </a>
+                </div>
+
+                <p class="product-hero-trust">
+                    ✨ <strong>Monday – Saturday</strong> · 10 AM – 7 PM · Delhi, India
+                </p>
+            </div>
+
+            <div class="product-hero-visual" data-cursor-hover>
+                <div class="product-hero-video-frame">
+                    <img src="assets/images/about.jpg" alt="MIS.work Office" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
+                </div>
+
+                <div class="product-hero-floating product-hero-floating-1">
+                    <div class="product-hero-floating-icon green">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    </div>
+                    <div class="product-hero-floating-content">
+                        <strong>Quick Reply</strong>
+                        <span>Under 2 hrs</span>
+                    </div>
+                </div>
+
+                <div class="product-hero-floating product-hero-floating-2">
+                    <div class="product-hero-floating-icon blue">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div class="product-hero-floating-content">
+                        <strong>Delhi Office</strong>
+                        <span>Pitampura</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
