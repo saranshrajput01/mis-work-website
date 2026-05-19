@@ -93,7 +93,7 @@ $products = [
                 </div>
 
                 <div class="reveal-on-scroll">
-                    <form id="contactFormMIS" style="background: white; padding: 32px; border-radius: 24px; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.08); border: 1px solid var(--color-border-light);">
+                    <form id="contactFormMIS" onsubmit="return false;" style="background: white; padding: 32px; border-radius: 24px; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.08); border: 1px solid var(--color-border-light);">
                         <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 6px;">Send us a message</h3>
                         <p style="font-size: 13px; color: var(--color-text-secondary); margin-bottom: 24px;">Fill in the form and we'll get back to you soon.</p>
 
