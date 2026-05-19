@@ -1,0 +1,45 @@
+# ===== MIS.work .gitignore =====
+
+# Old/backup PHP files
+index-old.php
+index - Copy.php
+checklist-old.php
+lead-management--.php
+attendance-management-system--.php
+inc/footer-21-7-25.php
+
+# Duplicate/old images (patterns)
+assets/images/*--.jpg
+assets/images/*--.mp4
+assets/images/*--.png
+assets/images/*-old.jpg
+assets/images/*-old.png
+assets/images/ch3-.jpg
+assets/images/dimg1.jpg.jpg
+assets/images/dimg3-old.jpg
+assets/images/homepage--.mp4
+assets/images/homepage------.mp4
+assets/images/homepage---------.mp4
+assets/images/d1--.mp4
+assets/images/ch7.jpg
+
+# CSS zip backup
+assets/css.zip
+
+# Large unused files
+design-preview.html
+
+# OS files
+.DS_Store
+Thumbs.db
+._*
+
+# IDE
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Roadmap docs (internal only, not for production)
+ROADMAP/
