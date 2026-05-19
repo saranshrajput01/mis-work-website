@@ -43,3 +43,4 @@ node_modules/
 
 # Roadmap docs (internal only, not for production)
 ROADMAP/
+.vercel
