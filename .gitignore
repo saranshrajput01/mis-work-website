@@ -43,6 +43,7 @@ node_modules/
 
 # Test artifacts (keep scripts, ignore generated output)
 tests/screenshots/
+tests/screenshots-devices/
 tests/reports/
 
 # Roadmap docs (internal only, not for production)
