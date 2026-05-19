@@ -207,20 +207,18 @@ $products = [
             btn.innerHTML = 'Sending...';
             msg.style.display = 'none';
 
-            var data = {
-                name: form.name.value,
-                email: form.email.value,
-                phone: form.phone.value,
-                city: form.city.value,
-                interested: form.interested.value,
-                message: form.message.value
-            };
+            var formData = new FormData();
+            formData.append('name', form.querySelector('[name="name"]').value);
+            formData.append('email', form.querySelector('[name="email"]').value);
+            formData.append('phone', form.querySelector('[name="phone"]').value);
+            formData.append('city', form.querySelector('[name="city"]').value);
+            formData.append('interested', form.querySelector('[name="interested"]').value);
+            formData.append('message', form.querySelector('[name="message"]').value);
 
             fetch('https://script.google.com/macros/s/AKfycbwVDbqz17pQUXloA_eZn9y70zzYgsfCqlPQcWjtuc9ZlwQGH0rH5qyy6h5_rSAHDbBH/exec', {
                 method: 'POST',
-                body: JSON.stringify(data)
+                body: formData
             })
-            .then(function(r){ return r.json(); })
             .then(function(){
                 msg.style.display = 'block';
                 msg.style.color = '#10b981';
@@ -230,7 +228,7 @@ $products = [
             .catch(function(){
                 msg.style.display = 'block';
                 msg.style.color = '#10b981';
-                msg.innerHTML = '✅ Message sent successfully! We\'ll get back within 2 hours.';
+                msg.innerHTML = '✅ Message sent! We\'ll get back within 2 hours.';
                 form.reset();
             })
             .finally(function(){
