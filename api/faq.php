@@ -8,38 +8,43 @@ include __DIR__.'/../inc/header-modern.php';
 ?>
 
     <!-- ====== FAQ HERO ====== -->
-    <section class="product-hero" style="background: linear-gradient(180deg, #0a0a0f 0%, #111118 100%); padding-bottom: 40px;">
+    <section class="product-hero">
         <div class="product-hero-aurora"></div>
         <div class="bg-grid"></div>
         <div class="noise-overlay"></div>
 
+        <!-- Floating background objects -->
+        <div class="hero-float-obj" style="top: 20%; right: 10%; width: 70px; height: 70px; background: linear-gradient(135deg, rgba(0,164,210,0.1), rgba(66,197,239,0.05)); border-radius: 18px; animation: floatSlow 9s ease-in-out infinite; border: 1px solid rgba(0,164,210,0.08);"></div>
+        <div class="hero-float-obj" style="top: 50%; left: 6%; width: 50px; height: 50px; background: linear-gradient(135deg, rgba(139,92,246,0.08), transparent); border-radius: 50%; animation: floatSlow 11s ease-in-out infinite 3s; border: 1px solid rgba(139,92,246,0.06);"></div>
+        <div class="hero-float-obj" style="bottom: 15%; right: 15%; width: 35px; height: 35px; background: linear-gradient(135deg, rgba(0,164,210,0.06), transparent); border-radius: 10px; animation: floatSlow 7s ease-in-out infinite 1.5s; border: 1px solid rgba(0,164,210,0.05); transform: rotate(45deg);"></div>
+
         <div class="product-hero-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
             <div class="product-hero-content" style="max-width: 700px; text-align: center;">
-                <div class="product-hero-eyebrow" style="justify-content: center; border-color: rgba(66,197,239,0.3); background: rgba(0,164,210,0.15);">
+                <div class="product-hero-eyebrow" style="justify-content: center;">
                     <span class="dot"></span>
                     <span>FAQ</span>
                 </div>
 
-                <h1 class="product-hero-title" style="color: #fff;">
+                <h1 class="product-hero-title">
                     Got Questions?
                     <span class="gradient">We've Got Answers</span>
                 </h1>
 
-                <p class="product-hero-subtitle" style="color: rgba(255,255,255,0.6); max-width: 550px; margin: 0 auto;">
-                    Everything you need to know about MIS.work — from setup to scaling.
+                <p class="product-hero-subtitle" style="max-width: 550px; margin: 0 auto;">
+                    Everything you need to know about MIS.work — from setup to scaling. Can't find your answer? Reach out directly.
                 </p>
             </div>
         </div>
     </section>
 
-    <!-- ====== FAQ ACCORDION - DARK FUTURISTIC ====== -->
-    <section style="background: linear-gradient(180deg, #111118 0%, #0a0a0f 100%); padding: 20px 0 100px; position: relative; overflow: hidden;">
-        <!-- Aurora blobs -->
-        <div style="position: absolute; top: 10%; right: -5%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(0,164,210,0.06), transparent 70%); border-radius: 50%; filter: blur(80px); pointer-events: none;"></div>
-        <div style="position: absolute; bottom: 20%; left: -10%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(139,92,246,0.05), transparent 70%); border-radius: 50%; filter: blur(80px); pointer-events: none;"></div>
+    <!-- ====== FAQ ACCORDION ====== -->
+    <section style="padding: 60px 0 100px; background: #fff; position: relative; overflow: hidden;">
+        <!-- Subtle bg decoration -->
+        <div style="position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(0,164,210,0.04), transparent 70%); border-radius: 50%; pointer-events: none;"></div>
+        <div style="position: absolute; bottom: -50px; left: -50px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(139,92,246,0.03), transparent 70%); border-radius: 50%; pointer-events: none;"></div>
 
         <div style="max-width: 780px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 2;">
-            <div class="faq-grid-futuristic">
+            <div class="faq-grid-modern">
                 <?php
                 $faqs = [
                     ['q' => 'What services does MIS.work offer?', 'a' => 'We offer Custom Cloud-Based ERP, Mobile & Web Apps, WhatsApp API & Bulk Marketing Tools, Delegation & Checklist Task Management, CRM & Lead Management, Attendance Systems, and Google Sheets to Tally/ERP integrations.'],
@@ -54,13 +59,15 @@ include __DIR__.'/../inc/header-modern.php';
                     ['q' => 'Can I get a free demo?', 'a' => 'Yes! We offer free demos for all our products. Fill the contact form or call us to schedule one.'],
                 ];
                 foreach ($faqs as $i => $faq): ?>
-                <div class="faq-card-futuristic reveal-on-scroll" data-cursor-hover>
-                    <button class="faq-q-futuristic" onclick="this.parentElement.classList.toggle('active')">
-                        <span class="faq-num"><?= str_pad($i + 1, 2, '0', STR_PAD_LEFT) ?></span>
+                <div class="faq-item-v2 reveal-on-scroll" data-cursor-hover>
+                    <button class="faq-q-v2" onclick="this.parentElement.classList.toggle('active')">
+                        <span class="faq-q-num"><?= str_pad($i + 1, 2, '0', STR_PAD_LEFT) ?></span>
                         <span class="faq-q-text"><?= $faq['q'] ?></span>
-                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+                        <span class="faq-q-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                        </span>
                     </button>
-                    <div class="faq-a-futuristic">
+                    <div class="faq-a-v2">
                         <p><?= $faq['a'] ?></p>
                     </div>
                 </div>
@@ -70,72 +77,95 @@ include __DIR__.'/../inc/header-modern.php';
     </section>
 
     <style>
-    .faq-grid-futuristic { display: flex; flex-direction: column; gap: 12px; }
-    .faq-card-futuristic {
-        background: rgba(255,255,255,0.02);
-        border: 1px solid rgba(255,255,255,0.06);
+    .hero-float-obj {
+        position: absolute;
+        pointer-events: none;
+        z-index: 1;
+        backdrop-filter: blur(4px);
+    }
+    @keyframes floatSlow {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-20px) rotate(5deg); }
+    }
+    .faq-grid-modern { display: flex; flex-direction: column; gap: 12px; }
+    .faq-item-v2 {
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.06);
         border-radius: 14px;
         overflow: hidden;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.02);
     }
-    .faq-card-futuristic:hover {
+    .faq-item-v2:hover {
+        border-color: rgba(0,164,210,0.2);
+        box-shadow: 0 8px 30px rgba(0,164,210,0.06);
+    }
+    .faq-item-v2.active {
         border-color: rgba(0,164,210,0.3);
-        background: rgba(255,255,255,0.04);
-        box-shadow: 0 0 30px rgba(0,164,210,0.05);
+        box-shadow: 0 8px 30px rgba(0,164,210,0.08);
+        background: linear-gradient(135deg, rgba(0,164,210,0.02), rgba(255,255,255,1));
     }
-    .faq-card-futuristic.active {
-        border-color: rgba(0,164,210,0.4);
-        background: rgba(0,164,210,0.04);
-        box-shadow: 0 0 40px rgba(0,164,210,0.08);
-    }
-    .faq-q-futuristic {
+    .faq-q-v2 {
         width: 100%;
         display: flex;
         align-items: center;
         gap: 16px;
-        padding: 20px 24px;
+        padding: 22px 24px;
         background: none;
         border: none;
         cursor: pointer;
         text-align: left;
         font-family: inherit;
     }
-    .faq-num {
-        font-size: 0.75rem;
+    .faq-q-num {
+        font-size: 0.8rem;
         font-weight: 700;
-        color: #42C5EF;
-        opacity: 0.6;
-        min-width: 24px;
+        color: #00A4D2;
+        min-width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0,164,210,0.08);
+        border-radius: 8px;
     }
     .faq-q-text {
         flex: 1;
         font-size: 1.02rem;
-        font-weight: 500;
-        color: rgba(255,255,255,0.9);
+        font-weight: 550;
+        color: #1a1a2e;
     }
-    .faq-chevron {
+    .faq-q-icon {
         flex-shrink: 0;
-        color: rgba(255,255,255,0.3);
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: rgba(0,0,0,0.03);
+        color: #666;
         transition: all 0.3s ease;
     }
-    .faq-card-futuristic.active .faq-chevron {
-        transform: rotate(180deg);
-        color: #42C5EF;
+    .faq-item-v2.active .faq-q-icon {
+        background: rgba(0,164,210,0.1);
+        color: #00A4D2;
+        transform: rotate(45deg);
     }
-    .faq-a-futuristic {
+    .faq-a-v2 {
         max-height: 0;
         overflow: hidden;
-        transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s ease;
+        transition: max-height 0.4s ease, padding 0.3s ease;
     }
-    .faq-card-futuristic.active .faq-a-futuristic {
+    .faq-item-v2.active .faq-a-v2 {
         max-height: 300px;
-        padding: 0 24px 20px 64px;
+        padding: 0 24px 22px 68px;
     }
-    .faq-a-futuristic p {
-        color: rgba(255,255,255,0.55);
+    .faq-a-v2 p {
+        color: #555;
         line-height: 1.7;
         margin: 0;
-        font-size: 0.93rem;
+        font-size: 0.95rem;
     }
     </style>
 

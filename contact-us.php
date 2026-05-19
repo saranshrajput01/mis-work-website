@@ -8,24 +8,29 @@ include 'inc/header-modern.php';
 ?>
 
     <!-- ====== CONTACT HERO ====== -->
-    <section class="product-hero" style="background: linear-gradient(180deg, #0a0a0f 0%, #111118 100%);">
+    <section class="product-hero">
         <div class="product-hero-aurora"></div>
         <div class="bg-grid"></div>
         <div class="noise-overlay"></div>
 
+        <!-- Floating background objects -->
+        <div class="hero-float-obj" style="top: 15%; left: 5%; width: 80px; height: 80px; background: linear-gradient(135deg, rgba(0,164,210,0.12), rgba(66,197,239,0.06)); border-radius: 20px; animation: floatSlow 8s ease-in-out infinite; border: 1px solid rgba(0,164,210,0.1);"></div>
+        <div class="hero-float-obj" style="top: 60%; right: 8%; width: 60px; height: 60px; background: linear-gradient(135deg, rgba(139,92,246,0.1), rgba(66,197,239,0.05)); border-radius: 50%; animation: floatSlow 10s ease-in-out infinite 2s; border: 1px solid rgba(139,92,246,0.08);"></div>
+        <div class="hero-float-obj" style="bottom: 20%; left: 12%; width: 40px; height: 40px; background: linear-gradient(135deg, rgba(0,164,210,0.08), transparent); border-radius: 12px; animation: floatSlow 7s ease-in-out infinite 1s; border: 1px solid rgba(0,164,210,0.06); transform: rotate(45deg);"></div>
+
         <div class="product-hero-container">
             <div class="product-hero-content">
-                <div class="product-hero-eyebrow" style="border-color: rgba(66,197,239,0.3); background: rgba(0,164,210,0.15);">
+                <div class="product-hero-eyebrow">
                     <span class="dot"></span>
                     <span>Get In Touch</span>
                 </div>
 
-                <h1 class="product-hero-title" style="color: #fff;">
+                <h1 class="product-hero-title">
                     Have a project in mind?
                     <span class="gradient">Let's build it together</span>
                 </h1>
 
-                <p class="product-hero-subtitle" style="color: rgba(255,255,255,0.6);">
+                <p class="product-hero-subtitle">
                     Whether you need a custom ERP, mobile app, or business automation — we respond within 2 hours during business hours.
                 </p>
 
@@ -40,8 +45,8 @@ include 'inc/header-modern.php';
                     </a>
                 </div>
 
-                <p class="product-hero-trust" style="color: rgba(255,255,255,0.4);">
-                    ✨ <strong style="color: rgba(255,255,255,0.7);">Monday – Saturday</strong> · 10 AM – 7 PM · Delhi, India
+                <p class="product-hero-trust">
+                    ✨ <strong>Monday – Saturday</strong> · 10 AM – 7 PM · Delhi, India
                 </p>
             </div>
 
@@ -73,94 +78,74 @@ include 'inc/header-modern.php';
         </div>
     </section>
 
-    <!-- ====== CONTACT INFO - DARK FUTURISTIC CARDS ====== -->
-    <section style="background: linear-gradient(180deg, #111118 0%, #0d0d12 100%); padding: 60px 0; position: relative; overflow: hidden;">
-        <div style="position: absolute; top: 0; left: 20%; width: 500px; height: 500px; background: radial-gradient(circle, rgba(0,164,210,0.05), transparent 70%); border-radius: 50%; filter: blur(80px); pointer-events: none;"></div>
+    <!-- ====== CONTACT INFO CARDS ====== -->
+    <section class="benefits-section">
+        <div class="benefits-container">
+            <div class="benefits-header reveal-on-scroll">
+                <div class="section-eyebrow-premium" style="margin: 0 auto 16px;">
+                    <span class="dot"></span>
+                    <span>Reach Out</span>
+                </div>
+                <h2 class="section-title-mis">
+                    Multiple ways to <span class="text-gradient">connect with us</span>
+                </h2>
+            </div>
 
-        <div style="max-width: 1200px; margin: 0 auto; padding: 0 32px; position: relative; z-index: 2;">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
-
-                <div class="contact-card-futuristic" data-cursor-hover>
-                    <div class="contact-card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div class="benefits-grid reveal-stagger">
+                <div class="benefit-card" data-cursor-hover>
+                    <div class="benefit-card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                     </div>
-                    <h4>Office Location</h4>
-                    <p>Office no. 775, 7th floor, Aggarwal Millennium Tower-2, Netaji Subhash Place, Pitampura, Delhi-110034</p>
+                    <h4 class="benefit-card-title">Office Location</h4>
+                    <p class="benefit-card-description">Office no. 775, 7th floor, Aggarwal Millennium Tower-2, Netaji Subhash Place, Pitampura, Delhi-110034</p>
                 </div>
 
-                <div class="contact-card-futuristic" data-cursor-hover>
-                    <div class="contact-card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <div class="benefit-card" data-cursor-hover>
+                    <div class="benefit-card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                     </div>
-                    <h4>Phone Numbers</h4>
-                    <p><a href="tel:+919999408444" style="color: rgba(255,255,255,0.7);">+91 9999408444</a><br><a href="tel:+918178525310" style="color: rgba(255,255,255,0.7);">+91 8178525310</a></p>
+                    <h4 class="benefit-card-title">Phone Numbers</h4>
+                    <p class="benefit-card-description"><a href="tel:+919999408444" style="color: inherit;">+91 9999408444</a><br><a href="tel:+918178525310" style="color: inherit;">+91 8178525310</a></p>
                 </div>
 
-                <div class="contact-card-futuristic" data-cursor-hover>
-                    <div class="contact-card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <div class="benefit-card" data-cursor-hover>
+                    <div class="benefit-card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                     </div>
-                    <h4>Email Address</h4>
-                    <p><a href="mailto:info@mis.work" style="color: rgba(255,255,255,0.7);">info@mis.work</a><br><a href="mailto:ankur@mis.work" style="color: rgba(255,255,255,0.7);">ankur@mis.work</a></p>
+                    <h4 class="benefit-card-title">Email Address</h4>
+                    <p class="benefit-card-description"><a href="mailto:info@mis.work" style="color: inherit;">info@mis.work</a><br><a href="mailto:ankur@mis.work" style="color: inherit;">ankur@mis.work</a></p>
                 </div>
 
-                <div class="contact-card-futuristic" data-cursor-hover>
-                    <div class="contact-card-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <div class="benefit-card" data-cursor-hover>
+                    <div class="benefit-card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     </div>
-                    <h4>Working Hours</h4>
-                    <p>Monday – Saturday<br>10:00 AM – 7:00 PM</p>
+                    <h4 class="benefit-card-title">Working Hours</h4>
+                    <p class="benefit-card-description">Monday – Saturday<br>10:00 AM – 7:00 PM</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ====== MAP ====== -->
-    <section style="background: #0a0a0f; padding: 0 0 60px; position: relative;">
-        <div style="max-width: 1200px; margin: 0 auto; padding: 0 32px;">
-            <div style="border-radius: 16px; overflow: hidden; border: 1px solid rgba(255,255,255,0.06); box-shadow: 0 20px 60px rgba(0,0,0,0.5); width: 100%; height: 400px;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13999.444980094062!2d77.1498196!3d28.693797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03835465395b%3A0xdd33e33c8e174d76!2sMIS%20WORK%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1732021589595!5m2!1sen!2sin" width="100%" height="100%" style="border:0; filter: brightness(0.8) contrast(1.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class="feature-row-section is-light" style="padding: 40px 0 60px;">
+        <div class="feature-row-container">
+            <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 8px 40px rgba(0,0,0,0.08); border: 1px solid rgba(0,0,0,0.04); width: 100%; height: 400px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13999.444980094062!2d77.1498196!3d28.693797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03835465395b%3A0xdd33e33c8e174d76!2sMIS%20WORK%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1732021589595!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
 
     <style>
-    .contact-card-futuristic {
-        background: rgba(255,255,255,0.02);
-        border: 1px solid rgba(255,255,255,0.06);
-        border-radius: 16px;
-        padding: 28px 24px;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    .hero-float-obj {
+        position: absolute;
+        pointer-events: none;
+        z-index: 1;
+        backdrop-filter: blur(4px);
     }
-    .contact-card-futuristic:hover {
-        border-color: rgba(0,164,210,0.3);
-        background: rgba(0,164,210,0.04);
-        box-shadow: 0 0 40px rgba(0,164,210,0.08);
-        transform: translateY(-2px);
-    }
-    .contact-card-icon {
-        width: 44px;
-        height: 44px;
-        border-radius: 12px;
-        background: rgba(0,164,210,0.1);
-        border: 1px solid rgba(0,164,210,0.2);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 16px;
-        color: #42C5EF;
-    }
-    .contact-card-futuristic h4 {
-        color: #fff;
-        font-size: 1rem;
-        font-weight: 600;
-        margin: 0 0 8px;
-    }
-    .contact-card-futuristic p {
-        color: rgba(255,255,255,0.5);
-        font-size: 0.9rem;
-        line-height: 1.6;
-        margin: 0;
+    @keyframes floatSlow {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-20px) rotate(5deg); }
     }
     </style>
 
