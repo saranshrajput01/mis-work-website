@@ -50,7 +50,7 @@ if (!isset($active_product)) $active_product = '';
     <nav class="nav-mis">
         <div class="nav-mis-container">
             <a href="index.php" class="nav-mis-logo" data-cursor-hover>
-                <img src="assets/images/logo.png" alt="MIS Logo">
+                <img src="assets/images/logo.png" alt="MIS Logo" fetchpriority="high" decoding="async">
             </a>
 
             <ul class="nav-mis-menu">

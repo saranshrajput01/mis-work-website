@@ -47,7 +47,7 @@ include 'inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/attendence.png" alt="Attendance Software">
+                    <img src="assets/images/attendence.webp" alt="Attendance Software" loading="lazy" decoding="async">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -100,7 +100,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/at1.jpg" alt="Attendance Highlights">
+                    <img src="assets/images/at1.jpg" alt="Attendance Highlights" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -137,7 +137,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/at2-1.jpg" alt="Management & Accountability">
+                    <img src="assets/images/at2-1.jpg" alt="Management & Accountability" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -172,7 +172,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/leave3.jpg" alt="User Interface">
+                    <img src="assets/images/leave3.webp" alt="User Interface" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

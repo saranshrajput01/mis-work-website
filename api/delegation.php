@@ -51,7 +51,7 @@ include __DIR__.'/../inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <video autoplay loop muted playsinline poster="assets/images/dimg1.jpg">
+                    <video autoplay loop muted playsinline poster="assets/images/dimg1.webp" preload="metadata">
                         <source src="assets/images/d1.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -107,7 +107,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/dimg1.jpg" alt="Delegation Highlights">
+                    <img src="assets/images/dimg1.webp" alt="Delegation Highlights" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -143,7 +143,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/dimg2.jpg" alt="Management & Performance">
+                    <img src="assets/images/dimg2.webp" alt="Management & Performance" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -182,7 +182,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/dimg3.jpg" alt="User Interface & Accessibility">
+                    <img src="assets/images/dimg3.jpg" alt="User Interface & Accessibility" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

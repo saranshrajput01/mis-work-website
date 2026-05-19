@@ -51,7 +51,7 @@ include __DIR__.'/../inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/ch1.jpg" alt="Checklist System Preview">
+                    <img src="assets/images/ch1.webp" alt="Checklist System Preview" loading="lazy" decoding="async">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -104,7 +104,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/ch1.jpg" alt="Checklist Highlights">
+                    <img src="assets/images/ch1.webp" alt="Checklist Highlights" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -141,7 +141,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/ch2.jpg" alt="Management & Performance">
+                    <img src="assets/images/ch2.webp" alt="Management & Performance" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -178,7 +178,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/ch3.jpg" alt="User Interface & Accessibility">
+                    <img src="assets/images/ch3.jpg" alt="User Interface & Accessibility" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

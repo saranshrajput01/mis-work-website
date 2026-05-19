@@ -47,7 +47,7 @@ include 'inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/as.jpg" alt="MIS.work Team" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
+                    <img src="assets/images/as.jpg" alt="MIS.work Team" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;" loading="lazy" decoding="async">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -141,7 +141,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/about.jpg" alt="Our Story">
+                    <img src="assets/images/about.jpg" alt="Our Story" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -177,7 +177,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/services.jpg" alt="What Makes Us Different">
+                    <img src="assets/images/services.jpg" alt="What Makes Us Different" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

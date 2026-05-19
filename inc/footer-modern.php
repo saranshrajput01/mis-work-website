@@ -150,7 +150,7 @@ $products = [
         <div class="container-mis footer-mis-content">
             <div class="footer-mis-grid">
                 <div>
-                    <img src="assets/images/logo.png" alt="MIS Logo" style="height: 50px; filter: brightness(0) invert(1); margin-bottom: 20px;">
+                    <img src="assets/images/logo.png" alt="MIS Logo" style="height: 50px; filter: brightness(0) invert(1); margin-bottom: 20px;" loading="lazy" decoding="async">
                     <p style="color: rgba(255,255,255,0.6); font-size: 14px; line-height: 1.7;">
                         With over 11 years of experience, MIS has helped 500+ customers across 37 industries develop automated systems that save up to 47% of their time.
                     </p>

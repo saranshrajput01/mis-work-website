@@ -50,7 +50,7 @@ include 'inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/yt1.jpg" alt="MIS.work Demo Videos" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
+                    <img src="assets/images/yt1.jpg" alt="MIS.work Demo Videos" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;" loading="lazy" decoding="async">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -133,7 +133,7 @@ include 'inc/header-modern.php';
             </div>
 
             <a href="https://www.youtube.com/watch?v=-f39s8alRy0" target="_blank" rel="noopener" class="vg-featured-card" id="featuredCard" data-cursor-hover>
-                <img src="assets/images/yt1.jpg" alt="MIS.work Product Overview">
+                <img src="assets/images/yt1.jpg" alt="MIS.work Product Overview" loading="lazy" decoding="async">
                 <div class="vg-featured-overlay">
                     <div class="vg-featured-play">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="white" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
@@ -184,7 +184,7 @@ include 'inc/header-modern.php';
                 <a href="<?= $video['url'] ?>" target="_blank" rel="noopener" class="vg-spotlight-card" data-cursor-hover data-category="<?= $video['tag'] ?>">
                     <div class="vg-spotlight-glow"></div>
                     <div class="vg-spotlight-thumb">
-                        <img src="<?= $video['thumb'] ?>" alt="<?= $video['title'] ?>">
+                        <img src="<?= $video['thumb'] ?>" alt="<?= $video['title'] ?>" loading="lazy" decoding="async">
                         <div class="vg-spotlight-play">
                             <svg width="22" height="22" viewBox="0 0 24 24" fill="white" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                         </div>
@@ -327,7 +327,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/yt2.jpg" alt="Walkthrough Format">
+                    <img src="assets/images/yt2.jpg" alt="Walkthrough Format" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -362,7 +362,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/yt3.jpg" alt="Share With Team">
+                    <img src="assets/images/yt3.jpg" alt="Share With Team" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

@@ -47,7 +47,7 @@ include __DIR__.'/../inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/services.png" alt="MIS.work Services" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
+                    <img src="assets/images/services.webp" alt="MIS.work Services" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;" loading="lazy" decoding="async">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -168,7 +168,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/service.jpg" alt="Our Approach">
+                    <img src="assets/images/service.jpg" alt="Our Approach" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -203,7 +203,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/project2.jpg" alt="Why MIS.work">
+                    <img src="assets/images/project2.jpg" alt="Why MIS.work" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

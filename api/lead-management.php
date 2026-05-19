@@ -46,7 +46,7 @@ include __DIR__.'/../inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/lead-header.jpg" alt="Lead Management CRM">
+                    <img src="assets/images/lead-header.jpg" alt="Lead Management CRM" loading="lazy" decoding="async">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -99,7 +99,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/lead1.jpg" alt="Lead Management Highlights">
+                    <img src="assets/images/lead1.jpg" alt="Lead Management Highlights" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -135,7 +135,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/lead2.jpg" alt="Management Dashboards">
+                    <img src="assets/images/lead2.jpg" alt="Management Dashboards" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
@@ -166,7 +166,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/leave3.jpg" alt="User Interface">
+                    <img src="assets/images/leave3.webp" alt="User Interface" loading="lazy" decoding="async">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">

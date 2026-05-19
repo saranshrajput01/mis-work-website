@@ -37,7 +37,7 @@
     <nav class="nav-mis">
         <div class="nav-mis-container">
             <a href="/" class="nav-mis-logo" data-cursor-hover>
-                <img src="assets/images/logo.png" alt="MIS Logo">
+                <img src="assets/images/logo.png" alt="MIS Logo" fetchpriority="high" decoding="async">
             </a>
             
             <ul class="nav-mis-menu">
@@ -124,7 +124,7 @@
                 <div class="hero-mega-video-controls">
                     <span></span><span></span><span></span>
                 </div>
-                <video autoplay loop muted playsinline poster="assets/images/imgtop.jpg">
+                <video autoplay loop muted playsinline poster="assets/images/imgtop.jpg" preload="metadata">
                     <source src="assets/images/homepage.mp4" type="video/mp4">
                 </video>
                 
@@ -224,14 +224,14 @@
         <div class="real-logos-marquee">
             <div class="real-logos-track">
                 <?php for ($j = 0; $j < 2; $j++): ?>
-                <div class="real-logo-item"><img src="assets/images/logo1.png" alt="Client 1"></div>
-                <div class="real-logo-item"><img src="assets/images/logo2.jpg" alt="Client 2"></div>
-                <div class="real-logo-item"><img src="assets/images/logo3.png" alt="Client 3"></div>
-                <div class="real-logo-item"><img src="assets/images/logo4.jpeg" alt="Client 4"></div>
-                <div class="real-logo-item"><img src="assets/images/logo5.jpeg" alt="Client 5"></div>
-                <div class="real-logo-item"><img src="assets/images/logo6.jpg" alt="Client 6"></div>
-                <div class="real-logo-item"><img src="assets/images/logo7.png" alt="Client 7"></div>
-                <div class="real-logo-item"><img src="assets/images/kapbros.jpg" alt="Kapbros"></div>
+                <div class="real-logo-item"><img src="assets/images/logo1.png" alt="Client 1" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/logo2.jpg" alt="Client 2" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/logo3.png" alt="Client 3" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/logo4.jpeg" alt="Client 4" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/logo5.jpeg" alt="Client 5" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/logo6.jpg" alt="Client 6" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/logo7.png" alt="Client 7" loading="lazy" decoding="async"></div>
+                <div class="real-logo-item"><img src="assets/images/kapbros.jpg" alt="Kapbros" loading="lazy" decoding="async"></div>
                 <?php endfor; ?>
             </div>
         </div>
@@ -385,7 +385,7 @@
             <div class="video-showcase-grid reveal-stagger">
                 <div class="video-showcase-card" data-cursor-hover>
                     <div class="video-showcase-wrapper">
-                        <video autoplay loop muted playsinline>
+                        <video autoplay loop muted playsinline preload="metadata">
                             <source src="assets/images/d1.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -397,7 +397,7 @@
                 
                 <div class="video-showcase-card" data-cursor-hover>
                     <div class="video-showcase-wrapper">
-                        <video autoplay loop muted playsinline>
+                        <video autoplay loop muted playsinline preload="metadata">
                             <source src="assets/images/youtube.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -994,7 +994,7 @@
         <div class="container-mis footer-mis-content">
             <div class="footer-mis-grid">
                 <div>
-                    <img src="assets/images/logo.png" alt="MIS Logo" style="height: 50px; filter: brightness(0) invert(1); margin-bottom: 20px;">
+                    <img src="assets/images/logo.png" alt="MIS Logo" style="height: 50px; filter: brightness(0) invert(1); margin-bottom: 20px;" loading="lazy" decoding="async">
                     <p style="color: rgba(255,255,255,0.6); font-size: 14px; line-height: 1.7;">
                         With over 11 years of experience, MIS has helped 500+ customers across 37 industries develop automated systems that save up to 47% of their time.
                     </p>
