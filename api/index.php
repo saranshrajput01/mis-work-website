@@ -22,7 +22,8 @@
     <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= time() ?>">
     <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= time() ?>">
     <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= time() ?>">>>
+    <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= time() ?>">
+    <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= time() ?>">
     
     <style>
         body { background: #FAFBFC; cursor: none; }
