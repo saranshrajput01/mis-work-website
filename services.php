@@ -116,7 +116,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Custom Cloud-Based ERP</h4>
+                    <h3 class="benefit-card-title">Custom Cloud-Based ERP</h3>
                     <p class="benefit-card-description">End-to-end enterprise resource planning tailored to your exact business operations and workflow.</p>
                 </div>
 
@@ -124,7 +124,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Mobile & Web Apps</h4>
+                    <h3 class="benefit-card-title">Mobile & Web Apps</h3>
                     <p class="benefit-card-description">Cross-platform mobile apps and responsive web applications built for speed and scale.</p>
                 </div>
 
@@ -132,7 +132,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">WhatsApp API & Marketing</h4>
+                    <h3 class="benefit-card-title">WhatsApp API & Marketing</h3>
                     <p class="benefit-card-description">Bulk messaging, API integrations, and automated WhatsApp workflows for customer engagement.</p>
                 </div>
 
@@ -140,7 +140,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Delegation & Checklist Systems</h4>
+                    <h3 class="benefit-card-title">Delegation & Checklist Systems</h3>
                     <p class="benefit-card-description">Task management with real-time tracking, auto-scoring, and WhatsApp alerts for growing teams.</p>
                 </div>
 
@@ -148,7 +148,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">CRM & Lead Management</h4>
+                    <h3 class="benefit-card-title">CRM & Lead Management</h3>
                     <p class="benefit-card-description">Track leads, manage pipelines, and close deals faster with our intelligent CRM system.</p>
                 </div>
 
@@ -156,7 +156,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Tally & ERP Integrations</h4>
+                    <h3 class="benefit-card-title">Tally & ERP Integrations</h3>
                     <p class="benefit-card-description">Google Sheets to Tally, Tally to ERP, and vice versa — seamless data sync across platforms.</p>
                 </div>
             </div>

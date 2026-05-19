@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow internal/test paths
+Disallow: /tests/
+Disallow: /api/
+Disallow: /inc/
+Disallow: /assets/vendor/
+
+# Sitemap location
+Sitemap: https://websitebackupnew.vercel.app/sitemap.xml

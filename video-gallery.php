@@ -191,7 +191,7 @@ include 'inc/header-modern.php';
                         <span class="vg-spotlight-tag"><?= $video['tag'] ?></span>
                     </div>
                     <div class="vg-spotlight-info">
-                        <h4><?= $video['title'] ?></h4>
+                        <h3><?= $video['title'] ?></h3>
                         <p><?= $video['desc'] ?></p>
                         <span class="vg-spotlight-link">Watch Demo →</span>
                     </div>
@@ -219,7 +219,7 @@ include 'inc/header-modern.php';
                     <div class="vg-glow-card-border"></div>
                     <div class="vg-glow-card-content">
                         <div class="vg-glow-card-number">10 min</div>
-                        <h4>Quick Demos</h4>
+                        <h3>Quick Demos</h3>
                         <p>Each video is under 10 minutes — skip the hour-long sales calls.</p>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ include 'inc/header-modern.php';
                     <div class="vg-glow-card-border"></div>
                     <div class="vg-glow-card-content">
                         <div class="vg-glow-card-number">100%</div>
-                        <h4>Real Data</h4>
+                        <h3>Real Data</h3>
                         <p>Every screen is a live system used by actual businesses. No mockups.</p>
                     </div>
                 </div>
@@ -235,7 +235,7 @@ include 'inc/header-modern.php';
                     <div class="vg-glow-card-border"></div>
                     <div class="vg-glow-card-content">
                         <div class="vg-glow-card-number">Free</div>
-                        <h4>No Signup</h4>
+                        <h3>No Signup</h3>
                         <p>Just click play. No forms, no emails, no barriers — watch instantly.</p>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ include 'inc/header-modern.php';
                     <div class="vg-glow-card-border"></div>
                     <div class="vg-glow-card-content">
                         <div class="vg-glow-card-number">6+</div>
-                        <h4>All Products</h4>
+                        <h3>All Products</h3>
                         <p>Every MIS.work product covered — compare side by side before choosing.</p>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ include 'inc/header-modern.php';
                     <div class="vg-benefit-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
                     </div>
-                    <h4>Dashboard Walkthrough</h4>
+                    <h3>Dashboard Walkthrough</h3>
                     <p>See the full admin panel, navigation, and how data flows through the system.</p>
                 </div>
 
@@ -279,7 +279,7 @@ include 'inc/header-modern.php';
                     <div class="vg-benefit-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
-                    <h4>Live Task Creation</h4>
+                    <h3>Live Task Creation</h3>
                     <p>Watch tasks, leads, or attendance entries created in real-time step by step.</p>
                 </div>
 
@@ -288,7 +288,7 @@ include 'inc/header-modern.php';
                     <div class="vg-benefit-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4>WhatsApp Alerts Firing</h4>
+                    <h3>WhatsApp Alerts Firing</h3>
                     <p>Real notifications on real phones — assignments, reminders, and reports live.</p>
                 </div>
 
@@ -297,7 +297,7 @@ include 'inc/header-modern.php';
                     <div class="vg-benefit-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                     </div>
-                    <h4>Reports & Analytics</h4>
+                    <h3>Reports & Analytics</h3>
                     <p>See dashboards, exports, and performance trackers — the final output you'll get.</p>
                 </div>
 
@@ -306,7 +306,7 @@ include 'inc/header-modern.php';
                     <div class="vg-benefit-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
-                    <h4>Role-Based Access</h4>
+                    <h3>Role-Based Access</h3>
                     <p>Understand how admin, manager, and team member views differ.</p>
                 </div>
 
@@ -315,7 +315,7 @@ include 'inc/header-modern.php';
                     <div class="vg-benefit-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
                     </div>
-                    <h4>End-to-End Flow</h4>
+                    <h3>End-to-End Flow</h3>
                     <p>Input → Action → Report. Understand the complete workflow, not just one screen.</p>
                 </div>
             </div>
@@ -457,7 +457,7 @@ include 'inc/header-modern.php';
     .vg-spotlight-card:hover .vg-spotlight-play { transform: translate(-50%, -50%) scale(1.1); }
     .vg-spotlight-tag { position: absolute; top: 12px; left: 12px; padding: 5px 12px; background: rgba(255,255,255,0.95); backdrop-filter: blur(8px); border-radius: 100px; font-size: 11px; font-weight: 600; color: #00A4D2; text-transform: uppercase; letter-spacing: 0.5px; }
     .vg-spotlight-info { padding: 20px 22px; position: relative; z-index: 1; }
-    .vg-spotlight-info h4 { color: #fff; font-size: 1.05rem; font-weight: 600; margin: 0 0 8px; }
+    .vg-spotlight-info h3 { color: #fff; font-size: 1.05rem; font-weight: 600; margin: 0 0 8px; }
     .vg-spotlight-info p { color: rgba(255,255,255,0.55); font-size: 0.88rem; line-height: 1.5; margin: 0 0 10px; }
     .vg-spotlight-link { font-size: 0.85rem; color: #42C5EF; font-weight: 500; }
 
@@ -476,7 +476,7 @@ include 'inc/header-modern.php';
     .vg-glow-card-border { position: absolute; inset: 0; border-radius: 20px; padding: 2px; background: inherit; background-size: inherit; animation: inherit; -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
     .vg-glow-card-content { background: #fff; border-radius: 18px; padding: 36px 28px; text-align: center; position: relative; z-index: 1; height: 100%; }
     .vg-glow-card-number { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #00A4D2, #8B5CF6); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
-    .vg-glow-card-content h4 { font-size: 1.05rem; font-weight: 650; color: #1a1a2e; margin: 0 0 10px; }
+    .vg-glow-card-content h3 { font-size: 1.05rem; font-weight: 650; color: #1a1a2e; margin: 0 0 10px; }
     .vg-glow-card-content p { font-size: 0.9rem; color: #666; line-height: 1.6; margin: 0; }
     @keyframes vgGradientSpin { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 
@@ -493,7 +493,7 @@ include 'inc/header-modern.php';
     .vg-benefit-glow { position: absolute; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, rgba(0,164,210,0.15), transparent 70%); pointer-events: none; opacity: 0; transition: opacity 0.3s ease; top: 50%; left: 50%; transform: translate(-50%, -50%); }
     .vg-benefit-card:hover .vg-benefit-glow { opacity: 1; }
     .vg-benefit-icon { width: 48px; height: 48px; border-radius: 12px; background: rgba(0,164,210,0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 20px; color: #42C5EF; }
-    .vg-benefit-card h4 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 10px; }
+    .vg-benefit-card h3 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 10px; }
     .vg-benefit-card p { color: rgba(255,255,255,0.6); font-size: 0.92rem; line-height: 1.6; margin: 0; }
 
     /* ===== RESPONSIVE ===== */

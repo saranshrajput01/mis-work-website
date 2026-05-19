@@ -229,7 +229,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">7 Recurrence Cycles</h4>
+                    <h3 class="benefit-card-title">7 Recurrence Cycles</h3>
                     <p class="benefit-card-description">Daily, Weekly, Bi-weekly, Monthly, Quarterly, Semi-Annual &amp; Annual — every task covered.</p>
                 </div>
 
@@ -237,7 +237,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Auto Reminders</h4>
+                    <h3 class="benefit-card-title">Auto Reminders</h3>
                     <p class="benefit-card-description">Tasks auto-populate in to-do lists with WhatsApp + Email nudges so nothing slips through.</p>
                 </div>
 
@@ -245,7 +245,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Mandatory Validations</h4>
+                    <h3 class="benefit-card-title">Mandatory Validations</h3>
                     <p class="benefit-card-description">Photo, file or remark proofs make every completed task auditable and accountable.</p>
                 </div>
 
@@ -253,7 +253,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Department-Wise View</h4>
+                    <h3 class="benefit-card-title">Department-Wise View</h3>
                     <p class="benefit-card-description">Segregated dashboards per HR, Ops, Sales, Production — heads see only their teams.</p>
                 </div>
 
@@ -261,7 +261,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">52-Week Performance</h4>
+                    <h3 class="benefit-card-title">52-Week Performance</h3>
                     <p class="benefit-card-description">Long-term trend reports per employee, auto-generated and shared on schedule.</p>
                 </div>
 
@@ -269,7 +269,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Real-time Reports</h4>
+                    <h3 class="benefit-card-title">Real-time Reports</h3>
                     <p class="benefit-card-description">Live dashboards for every cycle plus scheduled auto-emails — zero manual reporting.</p>
                 </div>
             </div>

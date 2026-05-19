@@ -341,7 +341,7 @@
   transform: scale(1.05) rotate(-5deg);
 }
 
-.process-step h4 {
+.process-step h3 {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
@@ -399,7 +399,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.dashboard-header h5 {
+.dashboard-header h3 {
   color: white;
   font-size: 14px;
   font-weight: 600;
@@ -1025,7 +1025,7 @@
   color: rgba(0, 164, 210, 0.3);
 }
 
-.spotlight-section .testimonial-info h6 {
+.spotlight-section .testimonial-info h3 {
   color: white;
 }
 
@@ -1066,7 +1066,7 @@
   transform: translateY(-4px);
 }
 
-.spotlight-section .process-step h4 {
+.spotlight-section .process-step h3 {
   color: white;
 }
 
@@ -1397,5 +1397,30 @@
   50% { 
     transform: translateX(-50%) scale(1.2);
     opacity: 0.8;
+  }
+}
+
+
+/* ==========================================================================
+   ACCESSIBILITY-FRIENDLY HEADING SIZES
+   After Lighthouse a11y fix (heading-order: h4→h3), preserve visual hierarchy
+   ========================================================================== */
+.ct-spotlight-card h3,
+.faq-spotlight-card h3,
+.vg-spotlight-info h3,
+.vg-glow-card-content h3 {
+  font-size: var(--heading-h4);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+/* Mobile: smaller spotlight card headings */
+@media (max-width: 768px) {
+  .ct-spotlight-card h3,
+  .faq-spotlight-card h3,
+  .vg-spotlight-info h3,
+  .vg-glow-card-content h3 {
+    font-size: 17px;
   }
 }

@@ -217,32 +217,32 @@ include __DIR__.'/../inc/header-modern.php';
             <div class="benefits-grid reveal-stagger">
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></div>
-                    <h4 class="benefit-card-title">Selfie Attendance</h4>
+                    <h3 class="benefit-card-title">Selfie Attendance</h3>
                     <p class="benefit-card-description">One click, one selfie — attendance marked with photo proof and timestamp.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-                    <h4 class="benefit-card-title">GPS Verification</h4>
+                    <h3 class="benefit-card-title">GPS Verification</h3>
                     <p class="benefit-card-description">Every check-in is location-tagged. Know exactly where your team marked attendance.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
-                    <h4 class="benefit-card-title">Live Route Tracking</h4>
+                    <h3 class="benefit-card-title">Live Route Tracking</h3>
                     <p class="benefit-card-description">Field sales team routes tracked on map with KMs calculated for reimbursement.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
-                    <h4 class="benefit-card-title">Auto Payroll</h4>
+                    <h3 class="benefit-card-title">Auto Payroll</h3>
                     <p class="benefit-card-description">Work hours, overtime, and billing days auto-calculated for accurate monthly payroll.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
-                    <h4 class="benefit-card-title">Auto Week-Off Marking</h4>
+                    <h3 class="benefit-card-title">Auto Week-Off Marking</h3>
                     <p class="benefit-card-description">Week-offs, holidays, and absences auto-marked — no manual intervention needed.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-                    <h4 class="benefit-card-title">Instant Alerts</h4>
+                    <h3 class="benefit-card-title">Instant Alerts</h3>
                     <p class="benefit-card-description">Missed attendance, late arrivals, early exits — managers notified in real-time.</p>
                 </div>
             </div>

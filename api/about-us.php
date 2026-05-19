@@ -113,7 +113,7 @@ include __DIR__.'/../inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Our Vision</h4>
+                    <h3 class="benefit-card-title">Our Vision</h3>
                     <p class="benefit-card-description">To be a global leader in workplace automation by driving innovation, sustainability, and positive impact for our communities.</p>
                 </div>
 
@@ -121,7 +121,7 @@ include __DIR__.'/../inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Our Mission</h4>
+                    <h3 class="benefit-card-title">Our Mission</h3>
                     <p class="benefit-card-description">To provide exceptional workplace systems that improve lives, foster innovation, and create lasting value for our customers and communities.</p>
                 </div>
 
@@ -129,7 +129,7 @@ include __DIR__.'/../inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Our Values</h4>
+                    <h3 class="benefit-card-title">Our Values</h3>
                     <p class="benefit-card-description">Integrity, innovation, customer focus, sustainability, collaboration, excellence, and accountability — the pillars of everything we build.</p>
                 </div>
             </div>

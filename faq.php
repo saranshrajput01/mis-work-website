@@ -137,7 +137,7 @@ include 'inc/header-modern.php';
                     <div class="faq-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     </div>
-                    <h4>Under 2-Hour Response</h4>
+                    <h3>Under 2-Hour Response</h3>
                     <p>Real humans reply — no bots, no queues, no tickets. Just fast, helpful answers.</p>
                 </div>
 
@@ -146,7 +146,7 @@ include 'inc/header-modern.php';
                     <div class="faq-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
-                    <h4>Dedicated Account Manager</h4>
+                    <h3>Dedicated Account Manager</h3>
                     <p>One person who knows your setup inside-out. No explaining from scratch every time.</p>
                 </div>
 
@@ -155,7 +155,7 @@ include 'inc/header-modern.php';
                     <div class="faq-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
-                    <h4>Free Onboarding & Training</h4>
+                    <h3>Free Onboarding & Training</h3>
                     <p>Hands-on sessions until every team member is confident and productive.</p>
                 </div>
 
@@ -164,7 +164,7 @@ include 'inc/header-modern.php';
                     <div class="faq-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                     </div>
-                    <h4>30-Day Money-Back</h4>
+                    <h3>30-Day Money-Back</h3>
                     <p>Not satisfied? Full refund, no questions. We stand behind every system we build.</p>
                 </div>
 
@@ -173,7 +173,7 @@ include 'inc/header-modern.php';
                     <div class="faq-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4>WhatsApp Priority Line</h4>
+                    <h3>WhatsApp Priority Line</h3>
                     <p>24/7 WhatsApp support for urgent issues. We're always one message away.</p>
                 </div>
 
@@ -182,7 +182,7 @@ include 'inc/header-modern.php';
                     <div class="faq-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                     </div>
-                    <h4>Free Lifetime Updates</h4>
+                    <h3>Free Lifetime Updates</h3>
                     <p>New features, improvements, and fixes rolled out regularly — no extra cost ever.</p>
                 </div>
             </div>
@@ -261,7 +261,7 @@ include 'inc/header-modern.php';
                     <div class="faq-glow-card-border"></div>
                     <div class="faq-glow-card-content">
                         <div class="faq-glow-card-number">37+</div>
-                        <h4>Industries Served</h4>
+                        <h3>Industries Served</h3>
                         <p>Manufacturing, retail, healthcare, education, logistics — we've seen and solved it all.</p>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ include 'inc/header-modern.php';
                     <div class="faq-glow-card-border"></div>
                     <div class="faq-glow-card-content">
                         <div class="faq-glow-card-number">7 days</div>
-                        <h4>Average Setup Time</h4>
+                        <h3>Average Setup Time</h3>
                         <p>From first call to live system — most teams are up and running within one week.</p>
                     </div>
                 </div>
@@ -279,7 +279,7 @@ include 'inc/header-modern.php';
                     <div class="faq-glow-card-border"></div>
                     <div class="faq-glow-card-content">
                         <div class="faq-glow-card-number">100%</div>
-                        <h4>Custom Built</h4>
+                        <h3>Custom Built</h3>
                         <p>No templates, no one-size-fits-all. Every system is tailored to your exact workflow.</p>
                     </div>
                 </div>
@@ -288,7 +288,7 @@ include 'inc/header-modern.php';
                     <div class="faq-glow-card-border"></div>
                     <div class="faq-glow-card-content">
                         <div class="faq-glow-card-number">47%</div>
-                        <h4>Time Saved</h4>
+                        <h3>Time Saved</h3>
                         <p>Average time savings reported by clients after implementing our automation systems.</p>
                     </div>
                 </div>
@@ -314,35 +314,35 @@ include 'inc/header-modern.php';
                 <div class="faq-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="faq-timeline-dot"><span>1</span></div>
                     <div class="faq-timeline-content">
-                        <h4>You Reach Out</h4>
+                        <h3>You Reach Out</h3>
                         <p>Call, WhatsApp, or fill the form. We respond within 2 hours.</p>
                     </div>
                 </div>
                 <div class="faq-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="faq-timeline-dot"><span>2</span></div>
                     <div class="faq-timeline-content">
-                        <h4>Free Demo Call</h4>
+                        <h3>Free Demo Call</h3>
                         <p>30-minute walkthrough of the product that fits your needs.</p>
                     </div>
                 </div>
                 <div class="faq-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="faq-timeline-dot"><span>3</span></div>
                     <div class="faq-timeline-content">
-                        <h4>Custom Proposal</h4>
+                        <h3>Custom Proposal</h3>
                         <p>Same-day proposal with pricing, timeline, and scope — no surprises.</p>
                     </div>
                 </div>
                 <div class="faq-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="faq-timeline-dot"><span>4</span></div>
                     <div class="faq-timeline-content">
-                        <h4>Build & Train</h4>
+                        <h3>Build & Train</h3>
                         <p>System ready in 7 days. Team training included, hands-on.</p>
                     </div>
                 </div>
                 <div class="faq-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="faq-timeline-dot"><span>5</span></div>
                     <div class="faq-timeline-content">
-                        <h4>Go Live + Ongoing Support</h4>
+                        <h3>Go Live + Ongoing Support</h3>
                         <p>Full rollout with dedicated manager. We stay with you forever.</p>
                     </div>
                 </div>
@@ -466,7 +466,7 @@ include 'inc/header-modern.php';
     .faq-spotlight-glow { position: absolute; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, rgba(0,164,210,0.15), transparent 70%); pointer-events: none; opacity: 0; transition: opacity 0.3s ease; top: 50%; left: 50%; transform: translate(-50%, -50%); }
     .faq-spotlight-card:hover .faq-spotlight-glow { opacity: 1; }
     .faq-spotlight-icon { width: 48px; height: 48px; border-radius: 12px; background: rgba(0,164,210,0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 20px; color: #42C5EF; }
-    .faq-spotlight-card h4 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 10px; }
+    .faq-spotlight-card h3 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 10px; }
     .faq-spotlight-card p { color: rgba(255,255,255,0.6); font-size: 0.92rem; line-height: 1.6; margin: 0; }
 
     /* ===== FAQ ACCORDION ===== */
@@ -496,7 +496,7 @@ include 'inc/header-modern.php';
     .faq-glow-card-border { position: absolute; inset: 0; border-radius: 20px; padding: 2px; background: inherit; background-size: inherit; animation: inherit; -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
     .faq-glow-card-content { background: #fff; border-radius: 18px; padding: 36px 28px; text-align: center; position: relative; z-index: 1; height: 100%; }
     .faq-glow-card-number { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #00A4D2, #8B5CF6); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
-    .faq-glow-card-content h4 { font-size: 1.05rem; font-weight: 650; color: #1a1a2e; margin: 0 0 10px; }
+    .faq-glow-card-content h3 { font-size: 1.05rem; font-weight: 650; color: #1a1a2e; margin: 0 0 10px; }
     .faq-glow-card-content p { font-size: 0.9rem; color: #666; line-height: 1.6; margin: 0; }
     @keyframes gradientSpin { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 
@@ -515,7 +515,7 @@ include 'inc/header-modern.php';
     .faq-timeline-dot span { font-size: 0.8rem; font-weight: 700; color: #42C5EF; }
     .faq-timeline-item:hover .faq-timeline-dot { background: #00A4D2; box-shadow: 0 0 20px rgba(0,164,210,0.4); }
     .faq-timeline-item:hover .faq-timeline-dot span { color: #fff; }
-    .faq-timeline-content h4 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 6px; }
+    .faq-timeline-content h3 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 6px; }
     .faq-timeline-content p { color: rgba(255,255,255,0.6); font-size: 0.92rem; line-height: 1.5; margin: 0; }
 
     /* ===== RESPONSIVE ===== */

@@ -796,7 +796,7 @@
   flex-shrink: 0;
 }
 
-.contact-info-content h6 {
+.contact-info-content h3 {
   font-size: 13px;
   font-weight: 600;
   color: var(--color-text-tertiary);

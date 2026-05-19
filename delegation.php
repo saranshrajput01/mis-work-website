@@ -232,7 +232,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Lightning-Fast Setup</h4>
+                    <h3 class="benefit-card-title">Lightning-Fast Setup</h3>
                     <p class="benefit-card-description">Get your team onboarded in under 24 hours with guided setup and our hands-on support.</p>
                 </div>
 
@@ -240,7 +240,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Custom Workflows</h4>
+                    <h3 class="benefit-card-title">Custom Workflows</h3>
                     <p class="benefit-card-description">Tailored hierarchies and approval flows that match your exact organisation structure.</p>
                 </div>
 
@@ -248,7 +248,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">52-Week Performance</h4>
+                    <h3 class="benefit-card-title">52-Week Performance</h3>
                     <p class="benefit-card-description">Long-term performance trends per employee, auto-calculated weekly and shared via dashboard.</p>
                 </div>
 
@@ -256,7 +256,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">WhatsApp Alerts</h4>
+                    <h3 class="benefit-card-title">WhatsApp Alerts</h3>
                     <p class="benefit-card-description">Real-time WhatsApp + Email notifications keep everyone in sync, no app-switching needed.</p>
                 </div>
 
@@ -264,7 +264,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Validation Built-in</h4>
+                    <h3 class="benefit-card-title">Validation Built-in</h3>
                     <p class="benefit-card-description">Photo / video / file proofs with remarks ensure accountability at every step.</p>
                 </div>
 
@@ -272,7 +272,7 @@ include 'inc/header-modern.php';
                     <div class="benefit-card-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                     </div>
-                    <h4 class="benefit-card-title">Smart Reports</h4>
+                    <h3 class="benefit-card-title">Smart Reports</h3>
                     <p class="benefit-card-description">Dynamic dashboards and exportable reports that turn raw activity into actionable insights.</p>
                 </div>
             </div>

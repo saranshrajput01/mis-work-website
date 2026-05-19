@@ -211,32 +211,32 @@ include __DIR__.'/../inc/header-modern.php';
             <div class="benefits-grid reveal-stagger">
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
-                    <h4 class="benefit-card-title">Instant Auto-Reply</h4>
+                    <h3 class="benefit-card-title">Instant Auto-Reply</h3>
                     <p class="benefit-card-description">New leads get an instant WhatsApp + email acknowledgment within seconds — before competitors.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-                    <h4 class="benefit-card-title">Smart Follow-ups</h4>
+                    <h3 class="benefit-card-title">Smart Follow-ups</h3>
                     <p class="benefit-card-description">Automated reminders ensure no lead goes cold. Team gets nudged until action is taken.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
-                    <h4 class="benefit-card-title">Conversion Dashboards</h4>
+                    <h3 class="benefit-card-title">Conversion Dashboards</h3>
                     <p class="benefit-card-description">Track source-wise, agent-wise, and stage-wise conversions in real-time visual dashboards.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-                    <h4 class="benefit-card-title">Meeting Booking</h4>
+                    <h3 class="benefit-card-title">Meeting Booking</h3>
                     <p class="benefit-card-description">In-app meeting scheduler with auto-reminders to both client and salesperson.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
-                    <h4 class="benefit-card-title">Full Communication Log</h4>
+                    <h3 class="benefit-card-title">Full Communication Log</h3>
                     <p class="benefit-card-description">Every call, message, meeting — logged with timestamps. Complete lead history at a glance.</p>
                 </div>
                 <div class="benefit-card" data-cursor-hover>
                     <div class="benefit-card-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
-                    <h4 class="benefit-card-title">Auto Brochure Sharing</h4>
+                    <h3 class="benefit-card-title">Auto Brochure Sharing</h3>
                     <p class="benefit-card-description">System-triggered brochures via WhatsApp &amp; email — no manual drafting or number saving.</p>
                 </div>
             </div>

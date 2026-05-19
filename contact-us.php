@@ -136,7 +136,7 @@ include 'inc/header-modern.php';
                     <div class="ct-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                     </div>
-                    <h4>Office Location</h4>
+                    <h3>Office Location</h3>
                     <p>Office no. 775, 7th floor, Aggarwal Millennium Tower-2, Netaji Subhash Place, Pitampura, Delhi-110034</p>
                 </div>
 
@@ -145,7 +145,7 @@ include 'inc/header-modern.php';
                     <div class="ct-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                     </div>
-                    <h4>Phone Numbers</h4>
+                    <h3>Phone Numbers</h3>
                     <p><a href="tel:+919999408444" style="color: inherit;">+91 9999408444</a><br><a href="tel:+918178525310" style="color: inherit;">+91 8178525310</a></p>
                 </div>
 
@@ -154,7 +154,7 @@ include 'inc/header-modern.php';
                     <div class="ct-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                     </div>
-                    <h4>Email Address</h4>
+                    <h3>Email Address</h3>
                     <p><a href="mailto:info@mis.work" style="color: inherit;">info@mis.work</a><br><a href="mailto:ankur@mis.work" style="color: inherit;">ankur@mis.work</a></p>
                 </div>
 
@@ -163,7 +163,7 @@ include 'inc/header-modern.php';
                     <div class="ct-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                     </div>
-                    <h4>Working Hours</h4>
+                    <h3>Working Hours</h3>
                     <p>Monday – Saturday<br>10:00 AM – 7:00 PM IST</p>
                 </div>
 
@@ -172,7 +172,7 @@ include 'inc/header-modern.php';
                     <div class="ct-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
                     </div>
-                    <h4>WhatsApp Support</h4>
+                    <h3>WhatsApp Support</h3>
                     <p>24/7 support via WhatsApp for urgent queries. Always one message away.</p>
                 </div>
 
@@ -181,7 +181,7 @@ include 'inc/header-modern.php';
                     <div class="ct-spotlight-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
-                    <h4>Walk-ins Welcome</h4>
+                    <h3>Walk-ins Welcome</h3>
                     <p>No appointment needed. Drop by our Delhi office anytime during working hours.</p>
                 </div>
             </div>
@@ -206,7 +206,7 @@ include 'inc/header-modern.php';
                     <div class="ct-glow-card-border"></div>
                     <div class="ct-glow-card-content">
                         <div class="ct-glow-card-number">500+</div>
-                        <h4>Clients Served</h4>
+                        <h3>Clients Served</h3>
                         <p>Businesses across India trust us to build and maintain their systems daily.</p>
                     </div>
                 </div>
@@ -214,7 +214,7 @@ include 'inc/header-modern.php';
                     <div class="ct-glow-card-border"></div>
                     <div class="ct-glow-card-content">
                         <div class="ct-glow-card-number">11+</div>
-                        <h4>Years Experience</h4>
+                        <h3>Years Experience</h3>
                         <p>Over a decade of building custom automation systems for growing teams.</p>
                     </div>
                 </div>
@@ -222,7 +222,7 @@ include 'inc/header-modern.php';
                     <div class="ct-glow-card-border"></div>
                     <div class="ct-glow-card-content">
                         <div class="ct-glow-card-number">2 hrs</div>
-                        <h4>Avg Response</h4>
+                        <h3>Avg Response</h3>
                         <p>We pride ourselves on fast, human replies — no bots, no ticket queues.</p>
                     </div>
                 </div>
@@ -230,7 +230,7 @@ include 'inc/header-modern.php';
                     <div class="ct-glow-card-border"></div>
                     <div class="ct-glow-card-content">
                         <div class="ct-glow-card-number">37+</div>
-                        <h4>Industries</h4>
+                        <h3>Industries</h3>
                         <p>Manufacturing, healthcare, retail, education, logistics — we adapt to all.</p>
                     </div>
                 </div>
@@ -256,35 +256,35 @@ include 'inc/header-modern.php';
                 <div class="ct-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="ct-timeline-dot"><span>1</span></div>
                     <div class="ct-timeline-content">
-                        <h4>You Send a Message</h4>
+                        <h3>You Send a Message</h3>
                         <p>Fill the form, call, or WhatsApp. We reply within 2 hours — guaranteed.</p>
                     </div>
                 </div>
                 <div class="ct-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="ct-timeline-dot"><span>2</span></div>
                     <div class="ct-timeline-content">
-                        <h4>Free Discovery Call</h4>
+                        <h3>Free Discovery Call</h3>
                         <p>30-min call to understand your business, pain points, and goals.</p>
                     </div>
                 </div>
                 <div class="ct-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="ct-timeline-dot"><span>3</span></div>
                     <div class="ct-timeline-content">
-                        <h4>Custom Proposal (Same Day)</h4>
+                        <h3>Custom Proposal (Same Day)</h3>
                         <p>Detailed proposal with scope, timeline, and transparent pricing.</p>
                     </div>
                 </div>
                 <div class="ct-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="ct-timeline-dot"><span>4</span></div>
                     <div class="ct-timeline-content">
-                        <h4>Build & Customize (5-7 Days)</h4>
+                        <h3>Build & Customize (5-7 Days)</h3>
                         <p>Your system built from scratch, tailored exactly to your workflow.</p>
                     </div>
                 </div>
                 <div class="ct-timeline-item reveal-on-scroll" data-cursor-hover>
                     <div class="ct-timeline-dot"><span>5</span></div>
                     <div class="ct-timeline-content">
-                        <h4>Training & Go Live</h4>
+                        <h3>Training & Go Live</h3>
                         <p>Hands-on training for your team + full rollout with ongoing support forever.</p>
                     </div>
                 </div>
@@ -334,7 +334,7 @@ include 'inc/header-modern.php';
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
                     <div style="border-radius: 12px; overflow: hidden; width: 100%; height: 100%; min-height: 350px;">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13999.444980094062!2d77.1498196!3d28.693797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03835465395b%3A0xdd33e33c8e174d76!2sMIS%20WORK%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1732021589595!5m2!1sen!2sin" width="100%" height="100%" style="border:0; min-height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe title="MIS Work India Pvt Ltd — Office Location on Google Maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13999.444980094062!2d77.1498196!3d28.693797!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03835465395b%3A0xdd33e33c8e174d76!2sMIS%20WORK%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1732021589595!5m2!1sen!2sin" width="100%" height="100%" style="border:0; min-height: 350px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -411,7 +411,7 @@ include 'inc/header-modern.php';
     .ct-spotlight-glow { position: absolute; width: 200px; height: 200px; border-radius: 50%; background: radial-gradient(circle, rgba(0,164,210,0.15), transparent 70%); pointer-events: none; opacity: 0; transition: opacity 0.3s ease; top: 50%; left: 50%; transform: translate(-50%, -50%); }
     .ct-spotlight-card:hover .ct-spotlight-glow { opacity: 1; }
     .ct-spotlight-icon { width: 48px; height: 48px; border-radius: 12px; background: rgba(0,164,210,0.1); display: flex; align-items: center; justify-content: center; margin-bottom: 20px; color: #42C5EF; }
-    .ct-spotlight-card h4 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 10px; }
+    .ct-spotlight-card h3 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 10px; }
     .ct-spotlight-card p { color: rgba(255,255,255,0.6); font-size: 0.92rem; line-height: 1.6; margin: 0; }
     .ct-spotlight-card a { color: rgba(255,255,255,0.8); text-decoration: none; }
     .ct-spotlight-card a:hover { color: #42C5EF; }
@@ -425,7 +425,7 @@ include 'inc/header-modern.php';
     .ct-glow-card-border { position: absolute; inset: 0; border-radius: 20px; padding: 2px; background: inherit; background-size: inherit; animation: inherit; -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; pointer-events: none; }
     .ct-glow-card-content { background: #fff; border-radius: 18px; padding: 36px 28px; text-align: center; position: relative; z-index: 1; height: 100%; }
     .ct-glow-card-number { font-size: 2.2rem; font-weight: 800; background: linear-gradient(135deg, #00A4D2, #8B5CF6); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 8px; }
-    .ct-glow-card-content h4 { font-size: 1.05rem; font-weight: 650; color: #1a1a2e; margin: 0 0 10px; }
+    .ct-glow-card-content h3 { font-size: 1.05rem; font-weight: 650; color: #1a1a2e; margin: 0 0 10px; }
     .ct-glow-card-content p { font-size: 0.9rem; color: #666; line-height: 1.6; margin: 0; }
     @keyframes ctGradientSpin { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
 
@@ -444,7 +444,7 @@ include 'inc/header-modern.php';
     .ct-timeline-dot span { font-size: 0.8rem; font-weight: 700; color: #42C5EF; }
     .ct-timeline-item:hover .ct-timeline-dot { background: #00A4D2; box-shadow: 0 0 20px rgba(0,164,210,0.4); }
     .ct-timeline-item:hover .ct-timeline-dot span { color: #fff; }
-    .ct-timeline-content h4 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 6px; }
+    .ct-timeline-content h3 { color: #fff; font-size: 1.1rem; font-weight: 600; margin: 0 0 6px; }
     .ct-timeline-content p { color: rgba(255,255,255,0.6); font-size: 0.92rem; line-height: 1.5; margin: 0; }
 
     /* ===== RESPONSIVE ===== */

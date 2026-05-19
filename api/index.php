@@ -261,7 +261,7 @@
                     <div class="process-step-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                     </div>
-                    <h4>Discover</h4>
+                    <h3>Discover</h3>
                     <p>We analyze your workflow, pain points, and goals</p>
                 </div>
                 
@@ -270,7 +270,7 @@
                     <div class="process-step-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
                     </div>
-                    <h4>Design</h4>
+                    <h3>Design</h3>
                     <p>Custom system architecture tailored to your needs</p>
                 </div>
                 
@@ -279,7 +279,7 @@
                     <div class="process-step-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
                     </div>
-                    <h4>Build</h4>
+                    <h3>Build</h3>
                     <p>Development with iterative reviews & testing</p>
                 </div>
                 
@@ -288,7 +288,7 @@
                     <div class="process-step-icon">
                         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
                     </div>
-                    <h4>Launch</h4>
+                    <h3>Launch</h3>
                     <p>Smooth rollout with training and ongoing support</p>
                 </div>
             </div>
@@ -318,7 +318,7 @@
                     </div>
                     <h3 class="product-card-title">Delegation System</h3>
                     <p class="product-card-description">Assign tasks, relax your mind. Real-time updates, media support, auto reports & performance tracking.</p>
-                    <a href="delegation.php" class="product-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+                    <a href="delegation.php" class="product-card-link" aria-label="Learn more about Delegation System">Explore Delegation <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
                 </div>
                 
                 <div class="product-card-mis" data-tilt>
@@ -327,7 +327,7 @@
                     </div>
                     <h3 class="product-card-title">Checklist & Work Management</h3>
                     <p class="product-card-description">Daily to Annual tasks with Auto Reminders, Task Tracking, and Smart Reports.</p>
-                    <a href="checklist.php" class="product-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+                    <a href="checklist.php" class="product-card-link" aria-label="Learn more about Checklist System">Explore Checklist <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
                 </div>
                 
                 <div class="product-card-mis" data-tilt>
@@ -336,7 +336,7 @@
                     </div>
                     <h3 class="product-card-title">Attendance Management</h3>
                     <p class="product-card-description">Smart real-time tracking, automated logs, and complete workforce visibility.</p>
-                    <a href="attendance-management-system.php" class="product-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+                    <a href="attendance-management-system.php" class="product-card-link" aria-label="Learn more about Attendance Management System">Explore Attendance <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
                 </div>
                 
                 <div class="product-card-mis" data-tilt>
@@ -345,7 +345,7 @@
                     </div>
                     <h3 class="product-card-title">Leave Management</h3>
                     <p class="product-card-description">Streamline employee leave requests with smooth approval workflows.</p>
-                    <a href="leave-application.php" class="product-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+                    <a href="leave-application.php" class="product-card-link" aria-label="Learn more about Leave Management System">Explore Leave Management <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
                 </div>
                 
                 <div class="product-card-mis" data-tilt>
@@ -354,7 +354,7 @@
                     </div>
                     <h3 class="product-card-title">Lead Management</h3>
                     <p class="product-card-description">Turn leads into loyalty. Smart, scalable solutions that convert prospects.</p>
-                    <a href="lead-management.php" class="product-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+                    <a href="lead-management.php" class="product-card-link" aria-label="Learn more about Lead Management / CRM">Explore Lead Management <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
                 </div>
                 
                 <div class="product-card-mis" data-tilt>
@@ -363,7 +363,7 @@
                     </div>
                     <h3 class="product-card-title">Bulk Marketing</h3>
                     <p class="product-card-description">Power your campaigns with seamless bulk WhatsApp & Email marketing.</p>
-                    <a href="#" class="product-card-link">Learn more <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+                    <a href="#contact" class="product-card-link" aria-label="Contact us about Bulk Marketing">Explore Bulk Marketing <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
                 </div>
             </div>
         </div>
@@ -466,7 +466,7 @@
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
                             </div>
                             <div class="feature-list-content">
-                                <h6>Lightning Fast Setup</h6>
+                                <h3>Lightning Fast Setup</h3>
                                 <p>Get up and running in under 24 hours</p>
                             </div>
                         </div>
@@ -475,7 +475,7 @@
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                             </div>
                             <div class="feature-list-content">
-                                <h6>Custom Workflows</h6>
+                                <h3>Custom Workflows</h3>
                                 <p>Tailored to match your exact business processes</p>
                             </div>
                         </div>
@@ -484,7 +484,7 @@
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
                             </div>
                             <div class="feature-list-content">
-                                <h6>24/7 Support</h6>
+                                <h3>24/7 Support</h3>
                                 <p>Dedicated team available round the clock</p>
                             </div>
                         </div>
@@ -493,7 +493,7 @@
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
                             </div>
                             <div class="feature-list-content">
-                                <h6>No Code Required</h6>
+                                <h3>No Code Required</h3>
                                 <p>User-friendly interface for everyone</p>
                             </div>
                         </div>
@@ -504,7 +504,7 @@
                     <!-- LIVE DASHBOARD PREVIEW -->
                     <div class="dashboard-preview">
                         <div class="dashboard-header">
-                            <h5>📊 Live Dashboard</h5>
+                            <h3>📊 Live Dashboard</h3>
                             <span class="dashboard-status">All Systems Operational</span>
                         </div>
                         
@@ -707,7 +707,7 @@
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">PM</div>
                         <div class="testimonial-info">
-                            <h6>Priya Mehta</h6>
+                            <h3>Priya Mehta</h3>
                             <span>Founder, Homecare</span>
                         </div>
                     </div>
@@ -719,7 +719,7 @@
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">KB</div>
                         <div class="testimonial-info">
-                            <h6>Kapbros Team</h6>
+                            <h3>Kapbros Team</h3>
                             <span>Operations Director</span>
                         </div>
                     </div>
@@ -731,7 +731,7 @@
                     <div class="testimonial-author">
                         <div class="testimonial-avatar">RS</div>
                         <div class="testimonial-info">
-                            <h6>Rajesh Sharma</h6>
+                            <h3>Rajesh Sharma</h3>
                             <span>CEO, TechVantage</span>
                         </div>
                     </div>
@@ -886,7 +886,7 @@
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                         </div>
                         <div class="contact-info-content">
-                            <h6>Visit Us</h6>
+                            <h3>Visit Us</h3>
                             <p>775, 7th Floor, Aggarwal Millennium Tower-2, NSP, Pitampura, Delhi – 110034</p>
                         </div>
                     </div>
@@ -896,7 +896,7 @@
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                         </div>
                         <div class="contact-info-content">
-                            <h6>Call Us</h6>
+                            <h3>Call Us</h3>
                             <a href="tel:+919999408444">+91 9999408444</a>
                         </div>
                     </div>
@@ -906,7 +906,7 @@
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                         </div>
                         <div class="contact-info-content">
-                            <h6>Email Us</h6>
+                            <h3>Email Us</h3>
                             <a href="mailto:info@mis.work">info@mis.work</a>
                         </div>
                     </div>
@@ -919,29 +919,29 @@
                         
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
                             <div>
-                                <label class="form-mis-label">Name *</label>
-                                <input type="text" name="name" class="form-mis-input" placeholder="Your name" required>
+                                <label class="form-mis-label" for="hf-name">Name *</label>
+                                <input type="text" id="hf-name" name="name" class="form-mis-input" placeholder="Your name" required autocomplete="name">
                             </div>
                             <div>
-                                <label class="form-mis-label">Email *</label>
-                                <input type="email" name="email" class="form-mis-input" placeholder="you@example.com" required>
+                                <label class="form-mis-label" for="hf-email">Email *</label>
+                                <input type="email" id="hf-email" name="email" class="form-mis-input" placeholder="you@example.com" required autocomplete="email">
                             </div>
                         </div>
                         
                         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px;">
                             <div>
-                                <label class="form-mis-label">Contact No. *</label>
-                                <input type="tel" name="phone" class="form-mis-input" placeholder="+91 99999 99999" required>
+                                <label class="form-mis-label" for="hf-phone">Contact No. *</label>
+                                <input type="tel" id="hf-phone" name="phone" class="form-mis-input" placeholder="+91 99999 99999" required autocomplete="tel">
                             </div>
                             <div>
-                                <label class="form-mis-label">City *</label>
-                                <input type="text" name="city" class="form-mis-input" placeholder="Your city" required>
+                                <label class="form-mis-label" for="hf-city">City *</label>
+                                <input type="text" id="hf-city" name="city" class="form-mis-input" placeholder="Your city" required autocomplete="address-level2">
                             </div>
                         </div>
                         
                         <div style="margin-bottom: 14px;">
-                            <label class="form-mis-label">Interested In *</label>
-                            <select name="interested" class="form-mis-input" required>
+                            <label class="form-mis-label" for="hf-interested">Interested In *</label>
+                            <select id="hf-interested" name="interested" class="form-mis-input" required>
                                 <option value="">Select a service</option>
                                 <option value="Delegation System">Delegation System</option>
                                 <option value="Checklist">Checklist</option>
@@ -959,8 +959,8 @@
                         </div>
                         
                         <div style="margin-bottom: 20px;">
-                            <label class="form-mis-label">Message</label>
-                            <textarea name="message" class="form-mis-input form-mis-textarea" placeholder="Tell us about your needs..."></textarea>
+                            <label class="form-mis-label" for="hf-message">Message</label>
+                            <textarea id="hf-message" name="message" class="form-mis-input form-mis-textarea" placeholder="Tell us about your needs..."></textarea>
                         </div>
                         
                         <button type="submit" class="btn-mis btn-primary-mis" style="width: 100%; padding: 14px;" data-cursor-hover id="homeSubmitBtn">
@@ -969,7 +969,7 @@
                         </button>
                         <div id="homeFormMsg" style="margin-top: 14px; text-align: center; font-size: 14px; display: none;"></div>
                     </form>
-                    <iframe name="hidden_iframe_home" style="display:none;"></iframe>
+                    <iframe name="hidden_iframe_home" title="Form submission target" aria-hidden="true" style="display:none;"></iframe>
                     <script>
                     document.getElementById('contactFormHome').addEventListener('submit', function(){
                         var btn = document.getElementById('homeSubmitBtn');
@@ -999,14 +999,14 @@
                         With over 11 years of experience, MIS has helped 500+ customers across 37 industries develop automated systems that save up to 47% of their time.
                     </p>
                     <div class="footer-mis-social" style="margin-top: 24px;">
-                        <a href="#" class="footer-mis-social-link" data-cursor-hover><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg></a>
-                        <a href="#" class="footer-mis-social-link" data-cursor-hover><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
-                        <a href="#" class="footer-mis-social-link" data-cursor-hover><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                        <a href="#" class="footer-mis-social-link" data-cursor-hover aria-label="Visit MIS.work on Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95z"/></svg></a>
+                        <a href="#" class="footer-mis-social-link" data-cursor-hover aria-label="Follow MIS.work on Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                        <a href="#" class="footer-mis-social-link" data-cursor-hover aria-label="Connect with MIS.work on LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
                     </div>
                 </div>
                 
                 <div>
-                    <h6 class="footer-mis-heading">Products</h6>
+                    <h3 class="footer-mis-heading">Products</h3>
                     <a href="delegation.php" class="footer-mis-link" data-cursor-hover>Delegation System</a>
                     <a href="checklist.php" class="footer-mis-link" data-cursor-hover>Checklist</a>
                     <a href="leave-application.php" class="footer-mis-link" data-cursor-hover>Leave Management</a>
@@ -1015,7 +1015,7 @@
                 </div>
                 
                 <div>
-                    <h6 class="footer-mis-heading">Company</h6>
+                    <h3 class="footer-mis-heading">Company</h3>
                     <a href="about-us.php" class="footer-mis-link" data-cursor-hover>About Us</a>
                     <a href="services.php" class="footer-mis-link" data-cursor-hover>Services</a>
                     <a href="#faq" class="footer-mis-link" data-cursor-hover>FAQ</a>
@@ -1023,7 +1023,7 @@
                 </div>
                 
                 <div>
-                    <h6 class="footer-mis-heading">Legal</h6>
+                    <h3 class="footer-mis-heading">Legal</h3>
                     <a href="privacy-policy.php" class="footer-mis-link" data-cursor-hover>Privacy Policy</a>
                     <a href="terms-conditions.php" class="footer-mis-link" data-cursor-hover>Terms & Conditions</a>
                 </div>
