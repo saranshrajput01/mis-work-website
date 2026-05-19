@@ -47,7 +47,7 @@ include __DIR__.'/../inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/about.jpg" alt="MIS.work Office" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
+                    <img src="assets/images/project1.jpg" alt="MIS.work Office" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">

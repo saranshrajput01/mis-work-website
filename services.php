@@ -47,7 +47,7 @@ include 'inc/header-modern.php';
 
             <div class="product-hero-visual" data-cursor-hover>
                 <div class="product-hero-video-frame">
-                    <img src="assets/images/services.jpg" alt="MIS.work Services" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
+                    <img src="assets/images/services.png" alt="MIS.work Services" style="width:100%; height:100%; object-fit:cover; border-radius: inherit;">
                 </div>
 
                 <div class="product-hero-floating product-hero-floating-1">
@@ -203,7 +203,7 @@ include 'inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid reverse">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/service.jpg" alt="Why MIS.work">
+                    <img src="assets/images/project2.jpg" alt="Why MIS.work">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
