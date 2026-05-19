@@ -36,6 +36,7 @@ if (!isset($active_product)) $active_product = '';
     <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= time() ?>">
     <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= time() ?>">
     <link rel="stylesheet" href="assets/css/sections/product-pages.css?v=<?= time() ?>">
+    <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= time() ?>">
 
     <style>
         body { background: #FAFBFC; cursor: none; }

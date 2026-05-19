@@ -1,0 +1,490 @@
+/* ==========================================================================
+   MOBILE RESPONSIVE - ALL BREAKPOINTS
+   375px (iPhone SE), 414px (iPhone Pro), 768px (iPad), 1024px (Desktop)
+   ========================================================================== */
+
+/* ==========================================================================
+   NAVIGATION - MOBILE MENU
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .nav-mis-menu {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+  
+  .nav-mis-menu.mobile-open {
+    max-height: 500px;
+    opacity: 1;
+  }
+  
+  .nav-mis-link {
+    width: 100%;
+    text-align: left;
+    padding: 12px 16px;
+  }
+  
+  .nav-mis-dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 8px;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  
+  .nav-mis-actions .btn-mis {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-mis-logo img {
+    height: 32px;
+  }
+  
+  .nav-mis-actions .btn-mis {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   HERO SECTION - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .hero-mega {
+    min-height: auto;
+    padding: 100px 0 60px;
+  }
+  
+  .hero-mega-container {
+    padding: 0 24px;
+  }
+  
+  .hero-mega-title {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  
+  .hero-mega-subtitle {
+    font-size: 16px;
+  }
+  
+  .hero-mega-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .hero-mega-actions .btn-mis {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-mega-title {
+    font-size: 32px;
+  }
+  
+  .hero-mega-badge {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 414px) {
+  .hero-mega {
+    padding: 80px 0 40px;
+  }
+  
+  .hero-mega-container {
+    padding: 0 16px;
+  }
+  
+  .hero-mega-title {
+    font-size: 28px;
+  }
+  
+  .hero-mega-subtitle {
+    font-size: 14px;
+  }
+}
+
+/* ==========================================================================
+   FLOATING CARDS - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .hero-floating-cards {
+    display: none; /* Hide 3D floating cards on mobile */
+  }
+}
+
+/* ==========================================================================
+   STATS BAR - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .stats-bar-mis {
+    padding: 40px 24px;
+  }
+  
+  .stats-bar-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  .stats-bar-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .stat-item-mis h3 {
+    font-size: 32px;
+  }
+}
+
+/* ==========================================================================
+   FEATURE SECTIONS - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .feature-row-mis {
+    padding: 60px 24px;
+  }
+  
+  .feature-row-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .feature-row-mis:nth-child(even) .feature-row-grid {
+    direction: ltr;
+  }
+  
+  .feature-row-content h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 414px) {
+  .feature-row-mis {
+    padding: 40px 16px;
+  }
+  
+  .feature-row-content h2 {
+    font-size: 28px;
+  }
+  
+  .feature-row-content p {
+    font-size: 14px;
+  }
+}
+
+/* ==========================================================================
+   PRODUCT CARDS GRID - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .products-grid-mis {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  .products-grid-mis {
+    padding: 0 16px;
+  }
+  
+  .product-card-mis {
+    padding: 24px 20px;
+  }
+}
+
+/* ==========================================================================
+   SPOTLIGHT CARDS - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .spotlight-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .spotlight-card {
+    padding: 32px 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  .spotlight-card {
+    padding: 24px 20px;
+  }
+  
+  .spotlight-card h3 {
+    font-size: 20px;
+  }
+}
+
+/* ==========================================================================
+   GRADIENT STATS - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .gradient-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .gradient-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .gradient-stat-card h3 {
+    font-size: 36px;
+  }
+}
+
+/* ==========================================================================
+   TIMELINE - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .timeline-vertical {
+    padding-left: 24px;
+  }
+  
+  .timeline-item {
+    padding-left: 32px;
+  }
+  
+  .timeline-dot {
+    left: -8px;
+  }
+}
+
+@media (max-width: 414px) {
+  .timeline-item h3 {
+    font-size: 18px;
+  }
+  
+  .timeline-item p {
+    font-size: 14px;
+  }
+}
+
+/* ==========================================================================
+   BENEFITS SECTION - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .benefits-grid-mis {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/* ==========================================================================
+   MARQUEE - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .marquee-mis {
+    padding: 40px 0;
+  }
+  
+  .marquee-content {
+    gap: 40px;
+  }
+  
+  .marquee-item {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 414px) {
+  .marquee-item {
+    font-size: 24px;
+  }
+}
+
+/* ==========================================================================
+   FOOTER - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .footer-mis-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .footer-mis-col:first-child {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer-mis {
+    padding: 60px 16px 24px;
+  }
+}
+
+/* ==========================================================================
+   CONTACT FORM - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .contact-form-mis {
+    padding: 40px 24px;
+  }
+  
+  .form-grid-mis {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  .contact-form-mis {
+    padding: 32px 16px;
+  }
+  
+  .form-input-mis,
+  .form-textarea-mis,
+  .form-select-mis {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+}
+
+/* ==========================================================================
+   SCROLL REVEAL - MOBILE (Reduce animation)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .scroll-reveal-text {
+    animation: none !important;
+  }
+  
+  .scroll-reveal-word {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ==========================================================================
+   AURORA EFFECTS - MOBILE (Reduce blur)
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .aurora-blob {
+    filter: blur(60px);
+  }
+  
+  .hero-orb {
+    filter: blur(50px);
+  }
+}
+
+@media (max-width: 414px) {
+  .aurora-blob {
+    filter: blur(40px);
+    opacity: 0.4;
+  }
+  
+  .hero-orb {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   BUTTONS - MOBILE
+   ========================================================================== */
+
+@media (max-width: 414px) {
+  .btn-mis {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+  
+  .btn-mis-lg {
+    font-size: 15px;
+    padding: 14px 28px;
+  }
+}
+
+/* ==========================================================================
+   SECTION PADDING - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .section-mis {
+    padding: 60px 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  .section-mis {
+    padding: 40px 16px;
+  }
+}
+
+/* ==========================================================================
+   TYPOGRAPHY - MOBILE
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
