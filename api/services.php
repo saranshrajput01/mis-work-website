@@ -168,7 +168,7 @@ include __DIR__.'/../inc/header-modern.php';
         <div class="feature-row-container">
             <div class="feature-row-grid">
                 <div class="feature-row-visual reveal-on-scroll">
-                    <img src="assets/images/services.jpg" alt="Our Approach">
+                    <img src="assets/images/service.jpg" alt="Our Approach">
                 </div>
 
                 <div class="feature-row-content reveal-on-scroll">
