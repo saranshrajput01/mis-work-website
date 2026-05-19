@@ -1,219 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!--====== Required meta tags ======-->
-      <meta charset="utf-8">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!--====== Title ======-->
-      <title>MIS Website</title>
-      
-      <?php include __DIR__.'/../inc/head.php'; ?>
-      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
-      
-     <style>
-          .dropdown:hover>.dropdown-menu {
-            display: block;
-            }
+<?php
+$page_title    = 'Video Gallery — MIS.work | Product Demos & Tutorials';
+$page_desc     = 'Watch MIS.work product demos, tutorials, and customer success stories on our video gallery.';
+$active_page   = 'videos';
+$active_product = '';
 
-            .dropdown>.dropdown-toggle:active {
-              /*Without this, clicking will make it sticky*/
-                pointer-events: none;
-            }
-            .theme-header .dropdown-item{    padding: .15rem .5rem}
-            .theme-header .dropdown-menu{ padding: 0px; }
-            .dropdown-menu{margin: .12rem 0 0; font-size: .9rem;}
-            .modal {
-  background-color: rgba(0,0,0,0.4);
-}
-.ekko-lightbox .modal-header {
-    border-bottom: 1px solid #505050;
-    padding: 12px 16px 6px 16px;
-    padding: 0px;
-    right: 3px;
-    top: 10px;
-    background: #000;
-    position: absolute;
-    z-index: 999;
-    border-radius: 0px;
-    /* line-height: 0; */
-    /* height: 10px; */
-    border-radius: 100%;
-    height: 25px;
-    width: 25px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-   
-  
-.ekko-lightbox   .modal-title {
-    color: #ccc;
-   display: none;
-    margin: 0;
-  }
- .ekko-lightbox  .modal-header .close{ margin: 0px; padding: 0px; }
- .ekko-lightbox  .modal-header .close:hover{ color: #fff; }
- .ekko-lightbox  .close {
-       font-size: 20px;
-    font-weight: normal;
-    font-size: 1.5rem;
-    opacity: 1.0;
-    color: #ccc;
-    text-shadow: none;
-    outline: none;
-    margin: 0px;
-        
-  }
+include __DIR__.'/../inc/header-modern.php';
+?>
 
-.ekko-lightbox .modal-content {  
-  border-radius:0;
-  border: 0;
-  background-color: #323232;
-}
-.video{overflow: hidden; }
-.video img{transition: 0.3s; }
-.video:hover img {transform: scale(1.1);}
-.video img{transition: 0.3s; }
-.img-responsive { width: 100%; }
-.btn-play{ left:0; right:0; top:0; bottom: 0; font-size:2.5rem; color: #f00; z-index: 99; }
-.ekko-lightbox .modal-body{ padding: 0px; }
-.vid { position: relative; padding-bottom:60px; }
+    <!-- ====== VIDEO HERO ====== -->
+    <section class="product-hero" style="padding-bottom: 40px;">
+        <div class="product-hero-aurora"></div>
+        <div class="bg-grid"></div>
+        <div class="noise-overlay"></div>
 
-      </style>
-      
-   </head>
-   <body class="">
-     
-      <!--====== Start Header Section ======-->
-      <?php include __DIR__.'/../inc/header.php'; ?>
-      <!--====== End Header Section ======-->
-      
-        <!--====== Start Page-banner section ======-->
-        <section class="page-banner bg_cover position-relative z-1">
-            <!-- <div class="shape shape-one scene" style="top:0px;"><span data-depth="1"><img src="assets/images/shape/shape-1.png" alt=""></span></div>
+        <div class="product-hero-container">
+            <div class="product-hero-content" style="max-width: 100%; text-align: center;">
+                <div class="product-hero-eyebrow" style="justify-content: center;">
+                    <span class="dot"></span>
+                    <span>Video Gallery</span>
+                </div>
 
-            <div class="shape shape-three scene"><span data-depth="3"><img src="assets/images/shape/shape-3.png" alt=""></span></div>
-            <div class="shape shape-four scene"><span data-depth="4"><img src="assets/images/shape/shape-2.png" alt=""></span></div> -->
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="page-title text-center">
-                            <h1>Videos</h1>
-                            <!-- <ul class="breadcrumbs-link">
-                                <li><a href="">Home</a></li>
-                                <li class="active">About Us</li>
-                            </ul> -->
+                <h1 class="product-hero-title">
+                    Watch Our Products
+                    <span class="gradient">in Action</span>
+                </h1>
+
+                <p class="product-hero-subtitle" style="max-width: 600px; margin: 0 auto;">
+                    See how MIS.work systems work through demos, tutorials, and real use-cases.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== VIDEO GRID ====== -->
+    <section class="benefits-section" style="padding-top: 0;">
+        <div class="benefits-container">
+            <div class="benefits-grid reveal-stagger">
+                <?php
+                $videos = [
+                    ['url' => 'https://www.youtube.com/watch?v=-f39s8alRy0&t=309s', 'thumb' => 'assets/images/yt1.jpg', 'title' => 'MIS.work Product Overview'],
+                    ['url' => 'https://www.youtube.com/watch?v=_lTASz6zDqM&t=96s', 'thumb' => 'assets/images/yt2.jpg', 'title' => 'Delegation System Demo'],
+                    ['url' => 'https://www.youtube.com/watch?v=fpmo37-Qpfk', 'thumb' => 'assets/images/yt3.jpg', 'title' => 'Checklist Management'],
+                    ['url' => 'https://www.youtube.com/watch?v=M56gDssDbPU', 'thumb' => 'assets/images/yt4.jpg', 'title' => 'Lead & CRM System'],
+                    ['url' => 'https://www.youtube.com/watch?v=5eCef2-oC50', 'thumb' => 'assets/images/yt5.jpg', 'title' => 'Attendance Tracking'],
+                    ['url' => 'https://www.youtube.com/watch?v=QsQq1av9bOI', 'thumb' => 'assets/images/yt6.jpg', 'title' => 'WhatsApp Integration'],
+                ];
+                foreach ($videos as $video): ?>
+                <a href="<?= $video['url'] ?>" target="_blank" rel="noopener" class="benefit-card" data-cursor-hover style="text-decoration: none; color: inherit; padding: 0; overflow: hidden;">
+                    <div style="position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden;">
+                        <img src="<?= $video['thumb'] ?>" alt="<?= $video['title'] ?>" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                        <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.3); transition: background 0.3s;">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="white" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                         </div>
                     </div>
-                </div>
+                    <div style="padding: 16px 20px;">
+                        <h4 class="benefit-card-title" style="margin: 0; font-size: 1rem;"><?= $video['title'] ?></h4>
+                    </div>
+                </a>
+                <?php endforeach; ?>
             </div>
-        </section>
-        <!--====== End Page-banner section ======-->
-      <!--====== Start Blog Section ======-->
-      <section class=" pt-50 pb-30">
-         <div class="container">
-            
-            <div class="row videos">
-              
-                 <div class="col-sm-6 col-md-4 mb-30">
-                          <div class="card border rounded px-2 py-2 shadow ">
-                            <a href="https://www.youtube.com/watch?v=-f39s8alRy0&t=309s"
-                              
-                              data-width="768"
-                              data-toggle="lightbox" data-gallery="youtubevideos" class="video position-relative d-block">
-                             <button type="button" class="btn btn-play position-absolute">
-                               <i class="fa-brands fa-youtube"></i>
-                             </button>
-                             <img src="assets/images/yt1.jpg" class="img-responsive">
-                           </a>
-                         </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 mb-30">
-                          <div class="card border rounded px-2 py-2 shadow">
-                          <a href="https://www.youtube.com/watch?v=_lTASz6zDqM&t=96s" 
-                            
-                            data-width="768"
-                            data-toggle="lightbox" data-gallery="youtubevideos" class="video position-relative d-block">
-                           <button type="button" class="btn btn-play position-absolute">
-                             <i class="fa-brands fa-youtube"></i>
-                           </button>
-                           <img src="assets/images/yt2.jpg" class="img-responsive">
-                        </a>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 mb-30">
-                          <div class="card border rounded px-2 py-2 shadow">
-                              <a href="https://www.youtube.com/watch?v=fpmo37-Qpfk"
-                               
-                                data-width="768"
-                                data-toggle="lightbox" data-gallery="youtubevideos" class="video position-relative d-block">
-                               <button type="button" class="btn btn-play position-absolute">
-                                  <i class="fa-brands fa-youtube"></i>
-                               </button>
-                               <img src="assets/images/yt3.jpg" class="img-responsive">
-                            </a>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 mb-30">
-                          <div class="card border rounded px-2 py-2 shadow">
-                          <a href="https://www.youtube.com/watch?v=M56gDssDbPU"
-                           
-                            data-width="768"
-                            data-toggle="lightbox" data-gallery="youtubevideos" class="video position-relative d-block">
-                           <button type="button" class="btn btn-play position-absolute">
-                              <i class="fa-brands fa-youtube"></i>
-                           </button>
-                           <img src="assets/images/yt4.jpg" class="img-responsive">
-                         </a>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 mb-30 ">
-                          <div class="card border rounded px-2 py-2 shadow">
-                          <a href="https://www.youtube.com/watch?v=5eCef2-oC50" 
-                           
-                            data-width="768"
-                            data-toggle="lightbox" data-gallery="youtubevideos" class="video position-relative d-block">
-                           <button type="button" class="btn btn-play position-absolute">
-                              <i class="fa-brands fa-youtube"></i>
-                           </button>
-                           <img src="assets/images/yt5.jpg" class="img-responsive">
-                        </a>
-                          </div>
-                      </div>
-                      <div class="col-sm-6 col-md-4 mb-30">
-                          <div class="position-relative">
-                               <div class="card border rounded px-2 py-2 shadow">
-                              <a href="https://www.youtube.com/watch?v=QsQq1av9bOI"
-                               
-                                data-width="768"
-                                data-toggle="lightbox" data-gallery="youtubevideos" class="video position-relative d-block">
-                               <button type="button" class="btn btn-play position-absolute">
-                                  <i class="fa-brands fa-youtube"></i>
-                               </button>
-                               <img src="assets/images/yt6.jpg" class="img-responsive">
-                            </a>
-                               </div>
-                          </div>
-                      </div>
-                
-                 
-                
-                  
-                      
-                    
-                
-               
-            </div>
-         </div>
-      </section>
-      <!--====== End Blog Section ======-->
-       
-        
-      <!--====== Start Footer ======-->
-      <?php include __DIR__.'/../inc/footer.php'; ?>
-      <!--====== End Footer ======-->
-   </body>
-</html>
+        </div>
+    </section>
+
+<?php
+$cta_title    = 'Want a <span style="background: linear-gradient(135deg, #fff, #B8EAFB); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">personalized demo?</span>';
+$cta_subtitle = 'Book a free 1-on-1 demo call and see the system tailored to your business.';
+$default_interest = '';
+include __DIR__.'/../inc/footer-modern.php';
