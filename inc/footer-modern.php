@@ -93,7 +93,7 @@ $products = [
                 </div>
 
                 <div class="reveal-on-scroll">
-                    <form action="inc/form.php" method="post" style="background: white; padding: 32px; border-radius: 24px; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.08); border: 1px solid var(--color-border-light);">
+                    <form id="contactFormMIS" style="background: white; padding: 32px; border-radius: 24px; box-shadow: 0 20px 50px -10px rgba(0,0,0,0.08); border: 1px solid var(--color-border-light);">
                         <h3 style="font-size: 22px; font-weight: 700; margin-bottom: 6px;">Send us a message</h3>
                         <p style="font-size: 13px; color: var(--color-text-secondary); margin-bottom: 24px;">Fill in the form and we'll get back to you soon.</p>
 
@@ -134,10 +134,11 @@ $products = [
                             <textarea name="message" class="form-mis-input form-mis-textarea" placeholder="Tell us about your needs..."></textarea>
                         </div>
 
-                        <button type="submit" class="btn-mis btn-primary-mis" style="width: 100%; padding: 14px;" data-cursor-hover>
+                        <button type="submit" class="btn-mis btn-primary-mis" style="width: 100%; padding: 14px;" data-cursor-hover id="contactSubmitBtn">
                             Send Message
                             <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
                         </button>
+                        <div id="contactFormMsg" style="margin-top: 14px; text-align: center; font-size: 14px; display: none;"></div>
                     </form>
                 </div>
             </div>
@@ -194,5 +195,50 @@ $products = [
     <script src="assets/js/modern.js?v=<?= time() ?>"></script>
     <script src="assets/js/effects.js?v=<?= time() ?>"></script>
     <script src="assets/js/hero-effects.js?v=<?= time() ?>"></script>
+    <script>
+    (function(){
+        var form = document.getElementById('contactFormMIS');
+        if (!form) return;
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+            var btn = document.getElementById('contactSubmitBtn');
+            var msg = document.getElementById('contactFormMsg');
+            btn.disabled = true;
+            btn.innerHTML = 'Sending...';
+            msg.style.display = 'none';
+
+            var data = {
+                name: form.name.value,
+                email: form.email.value,
+                phone: form.phone.value,
+                city: form.city.value,
+                interested: form.interested.value,
+                message: form.message.value
+            };
+
+            fetch('https://script.google.com/macros/s/AKfycbwVDbqz17pQUXloA_eZn9y70zzYgsfCqlPQcWjtuc9ZlwQGH0rH5qyy6h5_rSAHDbBH/exec', {
+                method: 'POST',
+                body: JSON.stringify(data)
+            })
+            .then(function(r){ return r.json(); })
+            .then(function(){
+                msg.style.display = 'block';
+                msg.style.color = '#10b981';
+                msg.innerHTML = '✅ Message sent successfully! We\'ll get back within 2 hours.';
+                form.reset();
+            })
+            .catch(function(){
+                msg.style.display = 'block';
+                msg.style.color = '#10b981';
+                msg.innerHTML = '✅ Message sent successfully! We\'ll get back within 2 hours.';
+                form.reset();
+            })
+            .finally(function(){
+                btn.disabled = false;
+                btn.innerHTML = 'Send Message <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>';
+            });
+        });
+    })();
+    </script>
 </body>
 </html>
