@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "critical": "^8.0.0",
     "lighthouse": "^12.8.2",
     "puppeteer": "^23.11.1"
   }

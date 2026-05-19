@@ -7,6 +7,7 @@ $page_desc     = 'MIS Checklist System: Stop letting daily operations drain your
 $active_page   = 'products';
 $active_product = 'checklist';
 
+$critical_type = 'product';
 include __DIR__.'/../inc/header-modern.php';
 ?>
 

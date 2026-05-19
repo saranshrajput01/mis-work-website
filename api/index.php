@@ -1,6 +1,12 @@
 <?php
 // MIS.work - ULTRA FUTURISTIC HOMEPAGE
 // Aurora, Spotlight, Scramble, Process Flow, Dashboard, FAQ
+
+// Critical CSS (inlined for fast first paint)
+$ver = time();
+$critical_dir = __DIR__ . '/../assets/css/critical/';
+$critical_base = @file_get_contents($critical_dir . 'base.css') ?: '';
+$critical_home = @file_get_contents($critical_dir . 'home.css') ?: '';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,13 +23,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="assets/css/main.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/components/components.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= time() ?>">
+    <!-- Critical CSS: inlined for fast first paint -->
+    <style id="critical-css"><?= $critical_base ?>
+<?= $critical_home ?></style>
+    
+    <!-- Non-critical CSS: deferred via media=print trick (loads async, swaps to all once loaded) -->
+    <link rel="stylesheet" href="assets/css/main.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/components/components.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    
+    <!-- No-JS fallback -->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/main.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/components/components.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= $ver ?>">
+    </noscript>
     
     <style>
         body { background: #FAFBFC; cursor: none; }

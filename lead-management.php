@@ -3,6 +3,7 @@ $page_title    = 'Lead Management / CRM — MIS.work | Stop Losing Sales';
 $page_desc     = 'MIS Lead Management CRM: Stop losing sales due to poor follow-ups. Auto-replies, follow-up reminders, meeting booking, Hot/Warm/Cold tagging, and brochure sharing.';
 $active_page   = 'products';
 $active_product = 'lead';
+$critical_type = 'product';
 include 'inc/header-modern.php';
 ?>
 

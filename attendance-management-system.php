@@ -3,6 +3,7 @@ $page_title    = 'Attendance Software — MIS.work | Smart Tracking for Teams';
 $page_desc     = 'MIS Attendance Software: Selfie attendance, GPS location tagging, live route tracking, auto payroll calculations. Quick, accurate, easy — for any team size.';
 $active_page   = 'products';
 $active_product = 'attendance';
+$critical_type = 'product';
 include 'inc/header-modern.php';
 ?>
 

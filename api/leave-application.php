@@ -3,6 +3,7 @@ $page_title    = 'Leave Management System — MIS.work | Simplify Leave Approval
 $page_desc     = 'MIS Leave Management: End time-consuming leave chaos. One-click approvals, two-step workflows, auto alerts via WhatsApp & Email, mobile-ready.';
 $active_page   = 'products';
 $active_product = 'leave';
+$critical_type = 'product';
 include __DIR__.'/../inc/header-modern.php';
 ?>
 

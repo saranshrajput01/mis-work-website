@@ -7,6 +7,7 @@ $page_desc     = 'MIS Delegation System: Don\'t let tasks hover in your head. Re
 $active_page   = 'products';
 $active_product = 'delegation';
 
+$critical_type = 'product';
 include __DIR__.'/../inc/header-modern.php';
 ?>
 

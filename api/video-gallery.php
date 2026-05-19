@@ -4,6 +4,7 @@ $page_desc     = 'Watch MIS.work product demos, tutorials, and customer success 
 $active_page   = 'videos';
 $active_product = '';
 
+$critical_type = 'gallery';
 include __DIR__.'/../inc/header-modern.php';
 ?>
 

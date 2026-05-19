@@ -4,6 +4,7 @@ $page_desc     = 'Find answers to common questions about MIS.work services, supp
 $active_page   = 'faq';
 $active_product = '';
 
+$critical_type = 'faq';
 include __DIR__.'/../inc/header-modern.php';
 ?>
 

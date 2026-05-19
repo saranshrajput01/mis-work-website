@@ -7,12 +7,22 @@
 //   $page_desc     (string) - Meta description
 //   $active_page   (string) - 'home'|'services'|'products'|'library'|'faq'|'contact'
 //   $active_product (string) - Optional: 'delegation'|'checklist'|... (highlights dropdown item)
+//   $critical_type (string) - 'content' (default)|'product'|'gallery'|'faq'
+//                              Selects which critical CSS bundle to inline
 // ============================================
 
 if (!isset($page_title))   $page_title   = 'MIS.work — Build Systems. Scale Faster.';
 if (!isset($page_desc))    $page_desc    = 'MIS.work - Premium business automation. Build systems, grow to greatness. 500+ clients, 11+ years.';
 if (!isset($active_page))  $active_page  = '';
 if (!isset($active_product)) $active_product = '';
+if (!isset($critical_type)) $critical_type = 'content';
+
+// ---- Critical CSS (inlined for fast first paint) ----
+$critical_dir = __DIR__ . '/../assets/css/critical/';
+$critical_base = @file_get_contents($critical_dir . 'base.css') ?: '';
+$critical_page = @file_get_contents($critical_dir . $critical_type . '.css') ?: '';
+$css_version = '<?= time() ?>';
+$ver = time();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,14 +39,31 @@ if (!isset($active_product)) $active_product = '';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/main.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/components/components.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/sections/product-pages.css?v=<?= time() ?>">
-    <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= time() ?>">
+    <!-- Critical CSS: inlined for fast first paint -->
+    <style id="critical-css"><?= $critical_base ?>
+<?= $critical_page ?></style>
+
+    <!-- Non-critical CSS: deferred via media=print trick (loads async, swaps to all once loaded) -->
+    <link rel="stylesheet" href="assets/css/main.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/components/components.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/sections/product-pages.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= $ver ?>" media="print" onload="this.media='all'">
+
+    <!-- No-JS fallback: load CSS synchronously -->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/main.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/components/components.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/sections.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/futuristic.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/aurora-effects.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/hero-effects.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/sections/product-pages.css?v=<?= $ver ?>">
+        <link rel="stylesheet" href="assets/css/mobile-responsive.css?v=<?= $ver ?>">
+    </noscript>
 
     <style>
         body { background: #FAFBFC; cursor: none; }
