@@ -8,6 +8,26 @@
    ========================================================================== */
 
 @media (max-width: 1024px) {
+  /* Fix hamburger button - stack 3 lines vertically */
+  .nav-mis-toggle {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-mis-toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--color-text-primary);
+    margin: 0;
+    border-radius: 2px;
+  }
+  
   .nav-mis-menu {
     position: fixed;
     top: 72px;
@@ -59,6 +79,7 @@
     height: 32px;
   }
   
+  /* Hide "Take Free Demo" button on mobile - only show hamburger */
   .nav-mis-actions .btn-mis {
     display: none;
   }
@@ -81,6 +102,9 @@
   .hero-mega-title {
     font-size: 36px;
     line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: none;
   }
   
   .hero-mega-subtitle {
@@ -100,7 +124,8 @@
 
 @media (max-width: 768px) {
   .hero-mega-title {
-    font-size: 32px;
+    font-size: 28px;
+    line-height: 1.25;
   }
   
   .hero-mega-badge {
@@ -119,11 +144,24 @@
   }
   
   .hero-mega-title {
-    font-size: 28px;
+    font-size: 26px;
+    line-height: 1.25;
+  }
+  
+  .hero-title-mega-gradient {
+    font-size: 26px;
+    line-height: 1.25;
   }
   
   .hero-mega-subtitle {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-mega-title,
+  .hero-title-mega-gradient {
+    font-size: 24px;
   }
 }
 
